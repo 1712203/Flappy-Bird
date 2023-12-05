@@ -1,0 +1,17 @@
+info face="sans-serif" size=45 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=1,1,1,1 spacing=1,1
+common lineHeight=45 base=59 scaleW=154 scaleH=134 pages=1 packed=0
+page id=0 file="NumberBlur.png"
+chars count=13
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=21 page=0 chnl=15
+char id=43 x=112 y=91 width=37 height=32 xoffset=-1 yoffset=-1 xadvance=35 page=0 chnl=15
+char id=48 x=34 y=0 width=39 height=44 xoffset=-1 yoffset=-1 xadvance=37 page=0 chnl=15
+char id=49 x=0 y=91 width=30 height=43 xoffset=0 yoffset=-1 xadvance=29 page=0 chnl=15
+char id=50 x=118 y=46 width=36 height=43 xoffset=0 yoffset=-1 xadvance=35 page=0 chnl=15
+char id=51 x=74 y=0 width=35 height=44 xoffset=-1 yoffset=-1 xadvance=33 page=0 chnl=15
+char id=52 x=31 y=91 width=41 height=43 xoffset=-1 yoffset=-1 xadvance=40 page=0 chnl=15
+char id=53 x=110 y=0 width=36 height=44 xoffset=-1 yoffset=-1 xadvance=34 page=0 chnl=15
+char id=54 x=0 y=46 width=38 height=44 xoffset=-1 yoffset=-1 xadvance=36 page=0 chnl=15
+char id=55 x=73 y=91 width=38 height=43 xoffset=-1 yoffset=-1 xadvance=36 page=0 chnl=15
+char id=56 x=39 y=46 width=39 height=44 xoffset=-1 yoffset=-1 xadvance=37 page=0 chnl=15
+char id=57 x=79 y=46 width=38 height=44 xoffset=-1 yoffset=-1 xadvance=36 page=0 chnl=15
+char id=63 x=0 y=0 width=33 height=45 xoffset=0 yoffset=-1 xadvance=32 page=0 chnl=15

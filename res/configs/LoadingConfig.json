@@ -1,0 +1,252 @@
+{
+    "scenes": [
+        {
+            "id": 1,
+            "name": "Login",
+            "backgroundMusic": "",
+            "assets": [
+                {"file": "sprite-sheets/Basics.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Buttons.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Nocis.png", "type": "SPRITE_SHEET"}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Loading",
+            "backgroundMusic": "",
+            "assets": [
+                {"file": "audios/voice/Welcome.mp3", "type": "VOICE"},
+                {"file": "sprite-sheets/Avatars.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Basics.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Basics2.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Buttons.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Cards.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Emoticons.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Poker.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Free.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Home.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Nocis.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Jackpot.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Payment.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Rating.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/MinigameMenu.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Bingo.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Ranking.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/League.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Game.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Tables.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/BuildUpPay.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/exp_pass.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/van-cat.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Containers.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/DragonKnight.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/ContinuousPurchase.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Offers2.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Vfx.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/CardCollection.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/CardCollection-0.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/ShareImage.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/ShareImage2.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Other.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/BigBet.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/EventCollector.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/EventCollector02.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Trophy.png", "type": "SPRITE_SHEET"},
+                {"file": "audios/sfx/pisti/CollectCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/DealCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/DropEmoji.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/FlipCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/GetCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/Lose.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/Matched.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/Matching.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/Pisti.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/PistiX2.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/PlaceCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/ReadyGo.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/Shuffle.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pisti/Win.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Bonus.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Button.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Buy.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/ClaimBonus.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/ClaimGift.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Click.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Coin.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/CoinDrop.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Jackpot.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/LevelUp.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Pop.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/ReceiveBonus.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/ReceivePrize.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/ReceivePrize.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Spin.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/XPCount.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Win.mp3", "type": "SFX"},
+                {"file": "audios/sfx/ranking/1st.mp3", "type": "SFX"},
+                {"file": "audios/sfx/ranking/2nd.mp3", "type": "SFX"},
+                {"file": "audios/sfx/ranking/3rd.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Bet.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Lose.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Ting.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Win.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Jump.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Slide.mp3", "type": "SFX"}
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Home",
+            "backgroundMusic": "audios/bgm/Home.mp3",
+            "assets": []
+        },
+        {
+            "id": 4,
+            "name": "Gameplay",
+            "backgroundMusic": "audios/bgm/Pisti.mp3",
+            "assets": []
+        },
+        {
+            "id": 5,
+            "name": "Tutorial",
+            "backgroundMusic": "audios/bgm/Pisti.mp3",
+            "assets": []
+        },
+        {
+            "id": 6,
+            "name": "Bingo",
+            "backgroundMusic": "audios/bgm/Bingo.mp3",
+            "assets": [
+                {"file": "sprite-sheets/Bingo.png", "type": "SPRITE_SHEET"},
+                {"file": "audios/sfx/bingo/Bet.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Lose.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Ting.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Win.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Jump.mp3", "type": "SFX"},
+                {"file": "audios/sfx/bingo/Slide.mp3", "type": "SFX"}
+            ]
+        },
+        {
+            "id": 7,
+            "name": "CardFlip",
+            "backgroundMusic": "audios/bgm/Home.mp3",
+            "assets": [
+                {"file": "sprite-sheets/CardFlip.png", "type": "SPRITE_SHEET"},
+                {"file": "audios/sfx/card-flip/Bet.mp3", "type": "SFX"},
+                {"file": "audios/sfx/card-flip/DealCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/card-flip/Lose.mp3", "type": "SFX"},
+                {"file": "audios/sfx/card-flip/OpenCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/card-flip/Win.mp3", "type": "SFX"},
+                {"file": "audios/sfx/card-flip/Slide.mp3", "type": "SFX"},
+                {"file": "audios/sfx/card-flip/Coin.mp3", "type": "SFX"}
+            ]
+        },
+        {
+            "id": 8,
+            "name": "GourdCrab",
+            "backgroundMusic": "audios/bgm/Home.mp3",
+            "assets": [
+                {"file": "sprite-sheets/GourdCrab.png", "type": "SPRITE_SHEET"},
+                {"file": "audios/sfx/gourd-crab/Bet.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/Win.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/Lose.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/DoorJump.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/DoorResult.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/Coin.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/Shake.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/CloseBox.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/Result.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/ResultX2.mp3", "type": "SFX"},
+                {"file": "audios/sfx/gourd-crab/ResultX3.mp3", "type": "SFX"}
+            ]
+        },
+        {
+            "id": 9,
+            "name": "HappyShark",
+            "backgroundMusic": "",
+            "assets": [
+                {"file": "sprite-sheets/HappyShark.png", "type": "SPRITE_SHEET"}
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Poker",
+            "assets": [
+                {"file": "sprite-sheets/Poker.png", "type": "SPRITE_SHEET"},
+                {"file": "audios/sfx/poker/DealCard.mp3", "type": "SFX"},
+                {"file": "audios/sfx/poker/Bet.mp3", "type": "SFX"},
+                {"file": "audios/sfx/poker/Win.mp3", "type": "SFX"},
+                {"file": "audios/sfx/poker/Lose.mp3", "type": "SFX"},
+                {"file": "audios/sfx/poker/AddCoin.mp3", "type": "SFX"}
+            ]
+        },
+        {
+            "id": 100,
+            "name": "AroundTheWorld",
+            "assets": [
+                {"file": "sprite-sheets/AroundTheWorld.png", "type": "SPRITE_SHEET"}
+            ]
+        },
+        {
+            "id": 11,
+            "name": "DualWheel",
+            "backgroundMusic": "audios/bgm/DualWheel.mp3",
+            "assets": [
+                {"file": "sprite-sheets/WheelX2.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/DualWheel.png", "type": "SPRITE_SHEET"},
+                {"file": "audios/sfx/dual-wheel/WheelSpin.mp3", "type": "SFX"},
+                {"file": "audios/sfx/dual-wheel/WheelStop.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/ClaimBonus.mp3", "type": "SFX"},
+                {"file": "audios/sfx/common/Bonus.mp3", "type": "SFX"}
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Pinball",
+            "backgroundMusic": "audios/bgm/Bingo.mp3",
+            "assets": [
+                {"file": "sprite-sheets/Pinball.png", "type": "SPRITE_SHEET"},
+                {"file": "audios/sfx/pinball/ReachReward.mp3", "type": "SFX"},
+                {"file": "audios/sfx/pinball/PegCollision.mp3", "type": "SFX"}
+            ]
+        }
+    ],
+    "tips": [
+        {
+            "text": "TXT_LOADING_TIP_00",
+            "levelRequired": 0
+        },
+        {
+            "text": "TXT_LOADING_TIP_01",
+            "levelRequired": 0
+        },
+        {
+            "text": "TXT_LOADING_TIP_02",
+            "levelRequired": 0
+        },
+        {
+            "text": "TXT_LOADING_TIP_03",
+            "levelRequired": 0
+        },
+        {
+            "text": "TXT_LOADING_TIP_04",
+            "levelRequired": 0
+        },
+        {
+            "text": "TXT_LOADING_TIP_07",
+            "levelRequired": 10
+        },
+        {
+            "text": "TXT_LOADING_TIP_08",
+            "levelRequired": 10
+        },
+        {
+            "text": "TXT_LOADING_TIP_09",
+            "levelRequired": 10
+        },
+        {
+            "text": "TXT_LOADING_TIP_11",
+            "levelRequired": 10
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+
+NPC.png
+size: 499,498
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_01
+  rotate: false
+  xy: 389, 328
+  size: 103, 169
+  orig: 105, 171
+  offset: 1, 1
+  index: -1
+Arm_02a
+  rotate: false
+  xy: 319, 187
+  size: 123, 134
+  orig: 125, 136
+  offset: 1, 1
+  index: -1
+Body
+  rotate: false
+  xy: 1, 67
+  size: 164, 211
+  orig: 166, 213
+  offset: 1, 1
+  index: -1
+Bowl
+  rotate: false
+  xy: 166, 20
+  size: 128, 94
+  orig: 130, 96
+  offset: 1, 1
+  index: -1
+Face_01
+  rotate: false
+  xy: 319, 101
+  size: 90, 85
+  orig: 92, 87
+  offset: 1, 1
+  index: -1
+Face_Lose
+  rotate: false
+  xy: 295, 16
+  size: 90, 84
+  orig: 92, 86
+  offset: 1, 1
+  index: -1
+Face_WIN
+  rotate: false
+  xy: 410, 101
+  size: 88, 85
+  orig: 90, 87
+  offset: 1, 1
+  index: -1
+Head
+  rotate: false
+  xy: 1, 279
+  size: 212, 218
+  orig: 214, 220
+  offset: 1, 1
+  index: -1
+Layer 1
+  rotate: false
+  xy: 214, 322
+  size: 174, 175
+  orig: 176, 177
+  offset: 1, 1
+  index: -1
+Pom
+  rotate: false
+  xy: 166, 115
+  size: 152, 163
+  orig: 154, 165
+  offset: 1, 1
+  index: -1

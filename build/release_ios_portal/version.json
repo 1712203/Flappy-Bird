@@ -1,0 +1,13 @@
+{
+    "android": {
+        "version_code": 1,
+        "version_name": "v6.3.1"
+    },
+    "ios": {
+        "version_code": 1,
+        "version_name": "v10.1.0",
+        "bundle_name": "com.mpt.pisti",
+        "apple_app_id": "1641235204"
+    },
+    "script_version": 29
+}

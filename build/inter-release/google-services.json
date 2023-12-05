@@ -1,0 +1,329 @@
+{
+  "project_info": {
+    "project_number": "619092479776",
+    "project_id": "ica-zps",
+    "storage_bucket": "ica-zps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:aea82b29b05f0af2435145",
+        "android_client_info": {
+          "package_name": "com.brazil.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:8ec20f235a81ced4435145",
+        "android_client_info": {
+          "package_name": "com.id.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:bc53c9922b947ba3435145",
+        "android_client_info": {
+          "package_name": "com.in.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:72034c4b2620c5f6435145",
+        "android_client_info": {
+          "package_name": "com.mm.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:41bf2d7476c5e06b435145",
+        "android_client_info": {
+          "package_name": "com.my.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:154361d6af7d9b4d435145",
+        "android_client_info": {
+          "package_name": "com.ph.bancaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:fd6784df2519458f435145",
+        "android_client_info": {
+          "package_name": "com.ru.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:c620ead1153db301435145",
+        "android_client_info": {
+          "package_name": "com.sg.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:25d597f143568041435145",
+        "android_client_info": {
+          "package_name": "com.th.bancaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:53f5c59a80ad00b3435145",
+        "android_client_info": {
+          "package_name": "com.twincorp.bancaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619092479776:android:9d18311222439122435145",
+        "android_client_info": {
+          "package_name": "com.us.ifish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4SI4cLfBz6uhfVfu6J1plnI-rVfE-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619092479776-blbv4ovgrbprndi68p6pkiiu9858uigs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

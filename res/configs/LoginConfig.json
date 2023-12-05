@@ -1,0 +1,71 @@
+{
+    "portal": {
+        "sessionKeyURL": "https://login-global.zingplay.com",
+        "gameID": "pisti_tr",
+        "secretKey": "Ax-6XUzBF!VJawLV"
+    },
+    "serverConnect": 3,
+    "clientVersion": 19,
+    "buildVersion": "13.1.0",
+    "defaultPackageName": "com.mpt.pisti",
+    "useCDN": true,
+    "maxBalancerRequest": 3,
+    "servers": [
+        {
+            "id": 0,
+            "name": "local",
+            "balancers": [],
+            "addresses": [
+                {"ip": "127.0.0.1", "port": 19301}
+            ]
+        },
+        {
+            "id": 1,
+            "name": "dev",
+            "balancers": [
+                "http://49.213.90.133:19149/?act=getServerInfo"
+            ],
+            "addresses": [
+                {"ip": "120.138.76.50", "port": 19142}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "sandbox",
+            "balancers": [
+                "http://49.213.90.133:19149/?act=getServerInfo"
+            ],
+            "addresses": [
+                {"ip": "120.138.76.50", "port": 19141}
+            ]
+        },
+        {
+            "id": 3,
+            "name": "live",
+            "balancers": [
+                "https://pisti-mena-sk1.service.zingplay.com?act=getServerInfo"
+            ],
+            "addresses": [
+                {"ip": "15.184.239.157", "port": 19121},
+                {"ip": "15.184.239.157", "port": 19122}
+            ]
+        },
+        {
+            "id": 4,
+            "name": "happy",
+            "balancers": [
+                "https://pisti-mena-sk1.service.zingplay.com?act=getServerInfo"
+            ],
+            "addresses": [
+                {"ip": "15.184.106.50", "port": 19121}
+            ]
+        }
+    ],
+    "loginMethods": {
+        "ID": true,
+        "GUEST": false,
+        "FACEBOOK": true,
+        "GOOGLE": true,
+        "APPLE": true
+    }
+}

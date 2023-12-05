@@ -1,0 +1,28 @@
+{
+  "groupRes": {
+    "NORMAL": "happy-shark/ui/BubbleNormal.png",
+    "GOLD": "happy-shark/ui/BubbleGold.png"
+  },
+
+  "maxTurnCount": 500,
+  "minTurnCount": 1,
+
+  "npcAnimation": {
+    "idle": {
+      "format": "happy-shark/npc/idle/Idle_%s.png",
+      "indexLength": 5,
+      "step": 2,
+      "from": 0,
+      "to": 28,
+      "defaultDuration": 0.5
+    },
+    "eat": {
+      "format": "happy-shark/npc/eat/Eat_%s.png",
+      "indexLength": 5,
+      "step": 2,
+      "from": 0,
+      "to": 58,
+      "defaultDuration": 0.5
+    }
+  }
+}

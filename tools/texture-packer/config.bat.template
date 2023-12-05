@@ -1,0 +1,3 @@
+@echo off
+
+set TEXTURE_PACKER_EXE="C:\Program Files\CodeAndWeb\TexturePacker\bin\TexturePacker.exe"

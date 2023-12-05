@@ -1,0 +1,125 @@
+
+PistiSummaryNPC.png
+size: 675,675
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_L_01
+  rotate: true
+  xy: 278, 320
+  size: 121, 199
+  orig: 121, 199
+  offset: 0, 0
+  index: -1
+Arm_L_02
+  rotate: false
+  xy: 2, 11
+  size: 112, 286
+  orig: 112, 286
+  offset: 0, 0
+  index: -1
+Arm_L_03
+  rotate: false
+  xy: 116, 33
+  size: 200, 264
+  orig: 200, 264
+  offset: 0, 0
+  index: -1
+Arm_R_01
+  rotate: false
+  xy: 431, 13
+  size: 84, 220
+  orig: 84, 220
+  offset: 0, 0
+  index: -1
+Arm_R_02
+  rotate: true
+  xy: 318, 42
+  size: 249, 111
+  orig: 249, 111
+  offset: 0, 0
+  index: -1
+Body
+  rotate: true
+  xy: 318, 443
+  size: 230, 339
+  orig: 230, 339
+  offset: 0, 0
+  index: -1
+Earing
+  rotate: true
+  xy: 116, 10
+  size: 21, 39
+  orig: 21, 39
+  offset: 0, 0
+  index: -1
+Eyes_Lose
+  rotate: true
+  xy: 431, 235
+  size: 83, 46
+  orig: 83, 46
+  offset: 0, 0
+  index: -1
+Eyes_Win
+  rotate: true
+  xy: 278, 465
+  size: 82, 31
+  orig: 82, 31
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 168, 549
+  size: 124, 145
+  orig: 124, 145
+  offset: 0, 0
+  index: -1
+Hair_01
+  rotate: false
+  xy: 168, 304
+  size: 108, 137
+  orig: 108, 137
+  offset: 0, 0
+  index: -1
+Hair_02
+  rotate: false
+  xy: 517, 94
+  size: 94, 197
+  orig: 94, 197
+  offset: 0, 0
+  index: -1
+Hair_03
+  rotate: true
+  xy: 517, 2
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+Hair_04
+  rotate: true
+  xy: 168, 468
+  size: 79, 106
+  orig: 79, 106
+  offset: 0, 0
+  index: -1
+Hair_Back_01
+  rotate: false
+  xy: 2, 299
+  size: 164, 374
+  orig: 164, 374
+  offset: 0, 0
+  index: -1
+Hair_Back_02
+  rotate: true
+  xy: 479, 293
+  size: 81, 167
+  orig: 81, 167
+  offset: 0, 0
+  index: -1
+Hair_Front
+  rotate: true
+  xy: 479, 376
+  size: 65, 194
+  orig: 65, 194
+  offset: 0, 0
+  index: -1

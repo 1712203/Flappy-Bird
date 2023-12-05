@@ -1,0 +1,104 @@
+
+HomeNPC.png
+size: 1150,1150
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_01
+  rotate: false
+  xy: 829, 603
+  size: 186, 286
+  orig: 186, 286
+  offset: 0, 0
+  index: -1
+Arm_02
+  rotate: true
+  xy: 202, 2
+  size: 177, 210
+  orig: 177, 210
+  offset: 0, 0
+  index: -1
+Chair_01
+  rotate: false
+  xy: 2, 434
+  size: 295, 714
+  orig: 295, 714
+  offset: 0, 0
+  index: -1
+Chair_02
+  rotate: true
+  xy: 2, 58
+  size: 374, 198
+  orig: 374, 198
+  offset: 0, 0
+  index: -1
+Chair_03
+  rotate: false
+  xy: 299, 438
+  size: 528, 331
+  orig: 528, 331
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 625, 24
+  size: 155, 209
+  orig: 155, 209
+  offset: 0, 0
+  index: -1
+Face_02
+  rotate: true
+  xy: 870, 53
+  size: 155, 209
+  orig: 155, 209
+  offset: 0, 0
+  index: -1
+Hair_Back
+  rotate: false
+  xy: 810, 891
+  size: 224, 257
+  orig: 224, 257
+  offset: 0, 0
+  index: -1
+Hair_Front
+  rotate: false
+  xy: 414, 9
+  size: 209, 170
+  orig: 209, 170
+  offset: 0, 0
+  index: -1
+Hair_Side 02
+  rotate: true
+  xy: 829, 439
+  size: 162, 235
+  orig: 162, 235
+  offset: 0, 0
+  index: -1
+Hair_Side_01
+  rotate: false
+  xy: 1036, 855
+  size: 111, 293
+  orig: 111, 293
+  offset: 0, 0
+  index: -1
+Hand_Card
+  rotate: true
+  xy: 870, 210
+  size: 227, 181
+  orig: 227, 181
+  offset: 0, 0
+  index: -1
+Lower_Body
+  rotate: false
+  xy: 299, 771
+  size: 509, 377
+  orig: 509, 377
+  offset: 0, 0
+  index: -1
+Upper_Body
+  rotate: true
+  xy: 299, 181
+  size: 255, 569
+  orig: 255, 569
+  offset: 0, 0
+  index: -1

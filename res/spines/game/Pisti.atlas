@@ -1,0 +1,195 @@
+
+Pisti.png
+size: 889,889
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+05_DangCap1_EN
+  rotate: false
+  xy: 0, 568
+  size: 403, 321
+  orig: 403, 321
+  offset: 0, 0
+  index: -1
+05_DangCap1_TUR
+  rotate: false
+  xy: 0, 246
+  size: 403, 321
+  orig: 403, 321
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 404, 309
+  size: 230, 225
+  orig: 230, 225
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 589, 146
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+J_Club
+  rotate: false
+  xy: 635, 350
+  size: 131, 184
+  orig: 131, 184
+  offset: 0, 0
+  index: -1
+J_Diamond
+  rotate: true
+  xy: 404, 177
+  size: 131, 184
+  orig: 131, 184
+  offset: 0, 0
+  index: -1
+J_Heart
+  rotate: true
+  xy: 549, 14
+  size: 131, 184
+  orig: 131, 184
+  offset: 0, 0
+  index: -1
+J_Spade
+  rotate: false
+  xy: 752, 165
+  size: 131, 184
+  orig: 131, 184
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: true
+  xy: 752, 146
+  size: 18, 19
+  orig: 20, 21
+  offset: 1, 1
+  index: -1
+Layer 1033
+  rotate: false
+  xy: 28, 35
+  size: 37, 29
+  orig: 39, 31
+  offset: 1, 1
+  index: -1
+Layer 1034
+  rotate: false
+  xy: 767, 385
+  size: 23, 21
+  orig: 25, 23
+  offset: 1, 1
+  index: -1
+Layer 1035
+  rotate: true
+  xy: 864, 858
+  size: 31, 22
+  orig: 33, 24
+  offset: 1, 1
+  index: -1
+Layer 1036
+  rotate: false
+  xy: 808, 827
+  size: 55, 62
+  orig: 57, 64
+  offset: 1, 1
+  index: -1
+Layer 1037
+  rotate: false
+  xy: 635, 320
+  size: 54, 29
+  orig: 56, 31
+  offset: 1, 1
+  index: -1
+Layer 1038
+  rotate: true
+  xy: 0, 0
+  size: 64, 27
+  orig: 66, 29
+  offset: 1, 1
+  index: -1
+Layer 1039
+  rotate: false
+  xy: 808, 791
+  size: 23, 35
+  orig: 25, 37
+  offset: 1, 1
+  index: -1
+Layer 1040
+  rotate: false
+  xy: 28, 0
+  size: 17, 13
+  orig: 19, 15
+  offset: 1, 1
+  index: -1
+Layer 1041
+  rotate: false
+  xy: 734, 130
+  size: 22, 15
+  orig: 24, 17
+  offset: 1, 1
+  index: -1
+Layer 1042
+  rotate: true
+  xy: 366, 170
+  size: 75, 29
+  orig: 77, 31
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: true
+  xy: 366, 126
+  size: 43, 41
+  orig: 45, 43
+  offset: 1, 1
+  index: -1
+TUYET VOI_EN
+  rotate: false
+  xy: 404, 655
+  size: 403, 234
+  orig: 403, 234
+  offset: 0, 0
+  index: -1
+bg_den
+  rotate: false
+  xy: 0, 65
+  size: 548, 60
+  orig: 548, 60
+  offset: 0, 0
+  index: -1
+giay1
+  rotate: true
+  xy: 765, 557
+  size: 97, 88
+  orig: 97, 88
+  offset: 0, 0
+  index: -1
+giay2
+  rotate: true
+  xy: 767, 462
+  size: 94, 86
+  orig: 97, 88
+  offset: 0, 2
+  index: -1
+giay3
+  rotate: false
+  xy: 767, 407
+  size: 49, 54
+  orig: 49, 54
+  offset: 0, 0
+  index: -1
+light_vang
+  rotate: false
+  xy: 404, 535
+  size: 360, 119
+  orig: 365, 119
+  offset: 0, 0
+  index: -1
+light_xanh
+  rotate: false
+  xy: 0, 126
+  size: 365, 119
+  orig: 365, 119
+  offset: 0, 0
+  index: -1

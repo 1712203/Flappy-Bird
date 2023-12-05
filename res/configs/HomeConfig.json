@@ -1,0 +1,7 @@
+{
+  "suggestPlay": {
+    "enable": true,
+    "idleTime": 35,
+    "requestInfoInterval": 15
+  }
+}

@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Client" type="#org.ccdt.lua.launch.CocosJSConfigurationType" factoryName="JSBinding">
+    <first key="runtime_arguments" stringValue="" />
+    <first key="force_update_entry_file" booleanValue="true" />
+    <first key="disable_live_coding" booleanValue="false" />
+    <first key="disable_using_upload" booleanValue="false" />
+    <first key="argument_map">
+      <second key="macruntime" stringValue="" />
+      <second key="win32runtime" stringValue="simulator/win32/GameClientJS.exe" />
+      <second key="connector_id" stringValue="jsbinding.win32.attach.connector" />
+      <second key="remotePlatform" stringValue="Android" />
+      <second key="host" stringValue="127.0.0.1" />
+      <second key="androidruntime" stringValue="" />
+      <second key="iosruntime" stringValue="" />
+    </first>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

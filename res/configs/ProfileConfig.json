@@ -1,0 +1,204 @@
+{
+    "features": [
+        {
+            "id": 0,
+            "key": "UNKNOWN",
+            "name": "Unknown",
+            "level": 0,
+            "icon": "icons/color/items/Unknown.png",
+            "description": ""
+        },
+        {
+            "id": 2001,
+            "key": "USE_QUEST",
+            "name": "TXT_QUEST",
+            "level": 0,
+            "icon": "icons/color/basic/Quest.png",
+            "description": ""
+        },
+        {
+            "id": 1,
+            "key": "USE_MAILBOX",
+            "name": "TXT_MAILBOX",
+            "level": 0,
+            "icon": "icons/color/basic/Mailbox.png",
+            "description": ""
+        },
+        {
+            "id": 3,
+            "key": "USE_FRIEND",
+            "name": "TXT_FRIEND",
+            "level": 0,
+            "icon": "icons/color/basic/Friend.png",
+            "description": ""
+        },
+        {
+            "id": 2004,
+            "key": "USE_RANKING",
+            "name": "TXT_RANKING",
+            "level": 0,
+            "icon": "icons/color/basic/Ranking.png",
+            "description": ""
+        },
+        {
+            "id": 2009,
+            "key": "USE_LEAGUE",
+            "name": "TXT_LEAGUE",
+            "level": 0,
+            "icon": "league/league_5.png",
+            "description": ""
+        },
+        {
+            "id": 6,
+            "key": "USE_JACKPOT",
+            "name": "TXT_JACKPOT",
+            "level": 0,
+            "icon": "icons/color/wheel/Red.png",
+            "description": ""
+        },
+        {
+            "id": 9,
+            "key": "USE_IMAGE_SHARE",
+            "name": "",
+            "level": 0,
+            "icon": "",
+            "description": ""
+        },
+        {
+            "id": 2006,
+            "key": "USE_COLLECTION",
+            "name": "TXT_CARDS_COLLECTION",
+            "level": 0,
+            "icon": "",
+            "description": ""
+        },
+        {
+            "id": 3003,
+            "key": "USE_MINIGAME_03",
+            "name": "TXT_MINIGAME_BINGO",
+            "level": 0,
+            "icon": "icons/color/minigames/Bingo.png",
+            "description": ""
+        },
+        {
+            "id": 3002,
+            "key": "USE_MINIGAME_02",
+            "name": "TXT_MINIGAME_GOURD_CRAB",
+            "level": 0,
+            "icon": "icons/color/minigames/GourdCrab.png",
+            "description": ""
+        },
+        {
+            "id": 3005,
+            "key": "USE_MINIGAME_05",
+            "name": "TXT_MINIGAME_CARD_FLIP",
+            "level": 0,
+            "icon": "icons/color/minigames/CardFlip.png",
+            "description": ""
+        },
+        {
+            "id": 3006,
+            "key": "USE_MINIGAME_06",
+            "name": "TXT_MINIGAME_POKER",
+            "level": 0,
+            "icon": "icons/color/minigames/Poker.png",
+            "description": ""
+        },
+        {
+            "id": 3001,
+            "key": "USE_MINIGAME_01",
+            "name": "TXT_MINIGAME_SLOT_MACHINE",
+            "level": 0,
+            "icon": "icons/color/minigames/SlotMachine.png",
+            "description": ""
+        },
+        {
+            "id": 5001,
+            "key": "USE_EVENT_01_NEW_COMER",
+            "name": "TXT_EVENT_NEW_COMER",
+            "level": 0,
+            "icon": "icons/color/events/Event01NewComer.png",
+            "description": ""
+        },
+        {
+            "id": 22,
+            "key": "USE_EVENT_05",
+            "name": "TXT_EVENT_BUILD_UP_PAY",
+            "level": 0,
+            "icon": "icons/color/events/BuildUpPay.png",
+            "description": ""
+        },
+        {
+            "id": 23,
+            "key": "USE_EVENT_02",
+            "name": "TXT_EVENT_HAPPY_SHARK",
+            "level": 0,
+            "icon": "icons/color/events/HappyShark.png",
+            "description": ""
+        },
+        {
+            "id": 24,
+            "key": "USE_EVENT_04",
+            "name": "TXT_EVENT_AROUND_THE_WORLD",
+            "level": 0,
+            "icon": "icons/color/tokens/Clover.png",
+            "description": ""
+        },
+        {
+            "id": 25,
+            "key": "USE_EVENT_08",
+            "name": "EVENT_DRAGON_KNIGHT",
+            "level": 0,
+            "icon": "icons/color/tokens/DragonEgg.png",
+            "description": ""
+        },
+        {
+            "id": 29,
+            "key": "USE_EVENT_12",
+            "name": "EVENT_EXP_PASS",
+            "level": 0,
+            "icon": "icons/color/tokens/DragonEgg.png",
+            "description": ""
+        },
+        {
+            "id": 32,
+            "key": "USE_EVENT_15",
+            "name": "EVENT_VAN_CAT",
+            "level": 0,
+            "icon": "icons/color/tokens/DragonEgg.png",
+            "description": ""
+        },
+        {
+            "id": -1000,
+            "key": "USE_IOS_CDN",
+            "name": "",
+            "level": 10,
+            "icon": "",
+            "description": ""
+        },
+        {
+            "id": 2007,
+            "key": "USE_INGAME_SUGGEST_MATCHING",
+            "name": "",
+            "level": 20,
+            "icon": "",
+            "description": ""
+        },
+        {
+            "id": 27,
+            "key": "USE_INGAME_ITEM_FACTOR",
+            "name": "",
+            "level": 0,
+            "icon": "",
+            "description": ""
+        },
+        {
+            "id": 2008,
+            "key": "USE_TROPHY",
+            "name": "TXT_TROPHY",
+            "level": 0,
+            "icon": "",
+            "description": ""
+        }
+    ]
+}

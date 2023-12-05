@@ -1,0 +1,118 @@
+
+slot3_jackpot.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin
+  rotate: false
+  xy: 292, 63
+  size: 195, 163
+  orig: 195, 163
+  offset: 0, 0
+  index: -1
+crown
+  rotate: true
+  xy: 841, 124
+  size: 102, 86
+  orig: 102, 86
+  offset: 0, 0
+  index: -1
+flag
+  rotate: false
+  xy: 2, 227
+  size: 266, 283
+  orig: 266, 283
+  offset: 0, 0
+  index: -1
+flag-01
+  rotate: false
+  xy: 1762, 419
+  size: 122, 91
+  orig: 122, 91
+  offset: 0, 0
+  index: -1
+flag-02
+  rotate: false
+  xy: 1886, 419
+  size: 122, 91
+  orig: 122, 91
+  offset: 0, 0
+  index: -1
+flag-back
+  rotate: false
+  xy: 2, 2
+  size: 288, 223
+  orig: 288, 223
+  offset: 0, 0
+  index: -1
+jackpot-board/jackpot-board
+  rotate: false
+  xy: 270, 370
+  size: 321, 140
+  orig: 321, 140
+  offset: 0, 0
+  index: -1
+jackpot-board/jackpot-frame
+  rotate: false
+  xy: 270, 228
+  size: 321, 140
+  orig: 321, 140
+  offset: 0, 0
+  index: -1
+jackpot-board/light-neon
+  rotate: false
+  xy: 907, 403
+  size: 290, 107
+  orig: 290, 107
+  offset: 0, 0
+  index: -1
+prop-light-glow
+  rotate: false
+  xy: 593, 366
+  size: 312, 144
+  orig: 312, 144
+  offset: 0, 0
+  index: -1
+prop-light-off
+  rotate: false
+  xy: 593, 228
+  size: 304, 136
+  orig: 304, 136
+  offset: 0, 0
+  index: -1
+text_jackpot
+  rotate: false
+  xy: 1199, 440
+  size: 233, 70
+  orig: 233, 70
+  offset: 0, 0
+  index: -1
+trumpet-01
+  rotate: false
+  xy: 1434, 393
+  size: 162, 117
+  orig: 162, 117
+  offset: 0, 0
+  index: -1
+trumpet-02
+  rotate: false
+  xy: 1598, 393
+  size: 162, 117
+  orig: 162, 117
+  offset: 0, 0
+  index: -1
+trumpet-03
+  rotate: false
+  xy: 489, 86
+  size: 174, 140
+  orig: 174, 140
+  offset: 0, 0
+  index: -1
+trumpet-04
+  rotate: false
+  xy: 665, 86
+  size: 174, 140
+  orig: 174, 140
+  offset: 0, 0
+  index: -1

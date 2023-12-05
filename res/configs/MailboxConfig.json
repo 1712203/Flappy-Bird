@@ -1,0 +1,21 @@
+{
+  "tabType": {
+    "MAIL": 0,
+    "NEWS": 1
+  },
+
+  "tabs": [
+    {
+      "type": "MAIL",
+      "name": "TXT_MAIL_TAB",
+      "itemStorageKeyPrefix": "mail_item_"
+    },
+    {
+      "type": "NEWS",
+      "name": "TXT_NEWS_TAB",
+      "itemStorageKeyPrefix": "news_item_"
+    }
+  ],
+
+  "newsMaxCharacterTitle": 40
+}

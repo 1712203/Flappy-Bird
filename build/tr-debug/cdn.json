@@ -1,0 +1,39 @@
+{
+    "assets": [
+        {
+            "from": "src", 
+            "to": "src"
+        }, 
+        {
+            "from": "res", 
+            "to": "res"
+        }, 
+        {
+            "from": "res-tr", 
+            "to": "res"
+        }, 
+        {
+            "from": "simulator/win32/script", 
+            "to": "script"
+        }, 
+        {
+            "from": "main.js", 
+            "to": ""
+        }, 
+        {
+            "from": "project.json", 
+            "to": ""
+        }, 
+        {
+            "from": "config.json", 
+            "to": ""
+        }
+    ], 
+    "key": [
+        "0xeeeeeeee", 
+        "0xffffffff", 
+        "0xaaaaaaaa", 
+        "0xdddddddd"
+    ], 
+    "remote": "http://portal-gsn.mto.zing.vn/pisti_tr_debug"
+}

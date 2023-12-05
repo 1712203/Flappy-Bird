@@ -1,0 +1,62 @@
+
+fx-pop.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow/glow -01
+  rotate: false
+  xy: 982, 603
+  size: 419, 419
+  orig: 419, 419
+  offset: 0, 0
+  index: -1
+glow/glow-spectrum-1
+  rotate: true
+  xy: 1403, 551
+  size: 185, 362
+  orig: 185, 362
+  offset: 0, 0
+  index: -1
+glow/glow-spectrum-2
+  rotate: true
+  xy: 1403, 738
+  size: 284, 554
+  orig: 284, 554
+  offset: 0, 0
+  index: -1
+glow/light-beam-1
+  rotate: false
+  xy: 492, 565
+  size: 488, 457
+  orig: 488, 457
+  offset: 0, 0
+  index: -1
+glow/light-beam-2
+  rotate: false
+  xy: 2, 487
+  size: 488, 535
+  orig: 488, 535
+  offset: 0, 0
+  index: -1
+glow/light-beam-3
+  rotate: false
+  xy: 2, 2
+  size: 501, 483
+  orig: 501, 483
+  offset: 0, 0
+  index: -1
+glow/star-01
+  rotate: false
+  xy: 1959, 915
+  size: 74, 107
+  orig: 74, 107
+  offset: 0, 0
+  index: -1
+glow/star-02
+  rotate: false
+  xy: 492, 514
+  size: 54, 49
+  orig: 54, 49
+  offset: 0, 0
+  index: -1

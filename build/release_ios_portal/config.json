@@ -1,0 +1,32 @@
+{
+    "is_landscape": false,
+    "name": "Pisti",
+    "android": {
+        "package_name": "com.mpt.pisti",
+        "use_firebase_analytics": true,
+        "use_crashlytics": true,
+        "google_license_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAljQ08Vwstf76VaAZjwW3hqk4BnzSm0pyHYi8wuapNF74rYycbfcSno0G1Xt0uirseaxxf+pcnA8e/5vRb6ukrVa1qyOECKSMLLdm14McXXAmh9Z/DkAf7ErP6HUxy4nTCkzpy/tdYH+Zp21ij+bpxzWRguUVxYxjjZqsE7wGaGvtMj/+97Mi8QbrvKiXphlYjLRhvV5DzfFYPzwt4d8oUhPclt827jOCwhl70nzyD2UMgLb5kDQ3kxB8VRl5AUqYyeqSITTo/yOKYhB8cCrENK36NOd8QuUVLUTQ7DLENLIv75hRyR9WO7AbdETDTgzcLNZ8hBNkSFbNHWywaxTdrwIDAQAB",
+        "app_abi": [
+            "armeabi-v7a",
+            "arm64-v8a"
+        ]
+    },
+    "tracker": {
+		"appsflyer_key": "4x3x2Y4Y38fWoUAPL25CiY",
+        "app_name": "pisti_tr",
+        "partner": "appsflyer"
+    },
+    "social": {
+        "facebook": {
+            "id": "1057698851657671",
+            "use_provider": true,
+            "token": "2190e93896be7c3aaf1086a00b50b2ce"
+        },
+        "google": {
+            "id": ""
+        }
+    },
+    "paymentLib": "src/libs/client-kit/modules/payment/Payment.js",
+    "is_payment_dev": false,
+    "country": "tr"
+}

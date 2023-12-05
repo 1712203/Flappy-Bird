@@ -1,0 +1,48 @@
+
+UI_02.png
+size: 181,179
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blink
+  rotate: false
+  xy: 96, 54
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 99
+  size: 101, 78
+  orig: 101, 78
+  offset: 0, 0
+  index: -1
+Cap
+  rotate: false
+  xy: 2, 12
+  size: 92, 85
+  orig: 92, 85
+  offset: 0, 0
+  index: -1
+Highlight_Chest
+  rotate: false
+  xy: 105, 81
+  size: 32, 96
+  orig: 32, 96
+  offset: 0, 0
+  index: -1
+KC_01
+  rotate: true
+  xy: 139, 77
+  size: 62, 36
+  orig: 62, 36
+  offset: 0, 0
+  index: -1
+KC_02
+  rotate: false
+  xy: 139, 141
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1

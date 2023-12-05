@@ -1,0 +1,38 @@
+{
+  "chat": {
+    "suggestedMessage": [
+      "TXT_BINGO_SUGGESTED_MESSAGE_01",
+      "TXT_BINGO_SUGGESTED_MESSAGE_02",
+      "TXT_BINGO_SUGGESTED_MESSAGE_03",
+      "TXT_BINGO_SUGGESTED_MESSAGE_04",
+      "TXT_BINGO_SUGGESTED_MESSAGE_05",
+      "TXT_BINGO_SUGGESTED_MESSAGE_06",
+      "TXT_BINGO_SUGGESTED_MESSAGE_07",
+      "TXT_BINGO_SUGGESTED_MESSAGE_08"
+    ],
+    "emoji": [
+      "CRAZY",
+      "CRY",
+      "DIZZY",
+      "HI",
+      "SURPRISE",
+      "WIN"
+    ]
+  },
+  "welcomeChat": {
+    "message": [
+      "TXT_WELCOME_MESSAGE_01",
+      "TXT_WELCOME_MESSAGE_02",
+      "TXT_WELCOME_MESSAGE_03"
+    ],
+    "emoji": [
+      "HI",
+      "WIN"
+    ]
+  },
+  "suggestPlay": {
+    "enable": true,
+    "idleTime": 35,
+    "requestInfoInterval": 15
+  }
+}

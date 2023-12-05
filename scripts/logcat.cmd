@@ -1,0 +1,1 @@
+adb logcat | findstr "cocos2d-x"

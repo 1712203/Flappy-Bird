@@ -1,0 +1,54 @@
+{
+    "defaultLanguage": "TR",
+    "languages": [
+        {
+            "languageCode": "EN",
+            "languageCodeServer": 1,
+            "name": "English",
+            "textFile": "texts/EN.json",
+            "flag": "icons/color/flags/England.png",
+            "assets": [
+                {"file": "sprite-sheets/Text_EN.png", "type": "SPRITE_SHEET"}
+            ],
+            "spineSkins": [
+                {"jsonPath": "spines/home/ButtonPlay.json", "skinName": "EN"},
+                {"jsonPath": "spines/game/Pisti.json", "skinName": "Duble_Pisti_EN"},
+                {"jsonPath": "spines/dragon-banner/DragonKnightBanner.json", "skinName": "Dragonball_EN"}
+            ]
+        },
+        {
+            "languageCode": "TR",
+            "languageCodeServer": 12,
+            "name": "Turkish",
+            "textFile": "texts/TR.json",
+            "flag": "icons/color/flags/Turkey.png",
+            "assets": [
+                {"file": "sprite-sheets/Text_TR-0.png", "type": "SPRITE_SHEET"},
+                {"file": "sprite-sheets/Text_TR-1.png", "type": "SPRITE_SHEET"}
+            ],
+            "spineSkins": [
+                {"jsonPath": "spines/home/ButtonPlay.json", "skinName": "TUR"},
+                {"jsonPath": "spines/game/Pisti.json", "skinName": "Duble_Pisti_TUR"},
+                {"jsonPath": "spines/dragon-banner/DragonKnightBanner.json", "skinName": "Dragonball_TUR"}
+            ]
+        }
+    ],
+    "countries": [
+        {
+            "id": 0,
+            "countryCode": "",
+            "languageCode": "EN",
+            "currencyCode": "USD",
+            "currencySign": "$",
+            "flag": "icons/color/flags/Unknown.png"
+        },
+        {
+            "id": 201,
+            "countryCode": "TR",
+            "languageCode": "TR",
+            "currencyCode": "TRY",
+            "currencySign": "₺",
+            "flag": "icons/color/flags/Turkey.png"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+
+HomeBackground.png
+size: 1443,1443
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_01
+  rotate: false
+  xy: 2, 301
+  size: 640, 1140
+  orig: 640, 1140
+  offset: 0, 0
+  index: -1
+BG_02
+  rotate: false
+  xy: 644, 2
+  size: 640, 700
+  orig: 640, 700
+  offset: 0, 0
+  index: -1
+BG_03
+  rotate: false
+  xy: 2, 12
+  size: 640, 287
+  orig: 640, 287
+  offset: 0, 0
+  index: -1
+BG_04
+  rotate: false
+  xy: 644, 704
+  size: 640, 737
+  orig: 640, 737
+  offset: 0, 0
+  index: -1

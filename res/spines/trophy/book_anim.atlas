@@ -1,0 +1,69 @@
+
+book_anim.png
+size: 866,866
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+book_back1
+  rotate: false
+  xy: 1, 328
+  size: 345, 537
+  orig: 345, 538
+  offset: 0, 1
+  index: -1
+book_cover
+  rotate: false
+  xy: 347, 352
+  size: 351, 513
+  orig: 351, 513
+  offset: 0, 0
+  index: -1
+book_edge
+  rotate: false
+  xy: 761, 354
+  size: 25, 511
+  orig: 26, 512
+  offset: 0, 1
+  index: -1
+book_edge1
+  rotate: false
+  xy: 699, 337
+  size: 61, 528
+  orig: 62, 529
+  offset: 0, 1
+  index: -1
+book_line
+  rotate: false
+  xy: 1, 110
+  size: 87, 37
+  orig: 88, 38
+  offset: 0, 1
+  index: -1
+paper
+  rotate: true
+  xy: 347, 1
+  size: 335, 487
+  orig: 335, 488
+  offset: 0, 1
+  index: -1
+paper_back3
+  rotate: false
+  xy: 1, 148
+  size: 287, 179
+  orig: 287, 179
+  offset: 0, 0
+  index: -1
+paper_back4
+  rotate: true
+  xy: 787, 541
+  size: 324, 38
+  orig: 324, 38
+  offset: 0, 0
+  index: -1
+ribbon
+  rotate: false
+  xy: 1, 51
+  size: 63, 58
+  orig: 63, 59
+  offset: 0, 1
+  index: -1

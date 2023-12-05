@@ -1,0 +1,18 @@
+# All text files should be normalized (convert CRLF to LF)
+*           text=auto
+
+# These files are text and should be normalized (convert CRLF to LF)
+*.js        text
+*.cpp       text diff=cpp
+*.h         text diff=c
+*.json      text
+*.plist     text
+
+# These file is binary files
+# (binary is a macro for -text -diff)
+*.png       binary
+*.jepg      binary
+*.bin       binary
+*.exe       binary
+*.dll       binary
+*.sqlite    binary

@@ -1,0 +1,14 @@
+material 2d
+{
+    technique transparent
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = shaders/Simple.vsh
+                fragmentShader = shaders/Transparent.fsh
+            }
+        }
+    }
+}

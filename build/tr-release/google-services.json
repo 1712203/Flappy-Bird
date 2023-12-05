@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "757217259568",
+    "project_id": "pisti-4b17a",
+    "storage_bucket": "pisti-4b17a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757217259568:android:e873978057c097528c7df5",
+        "android_client_info": {
+          "package_name": "com.zps.pisti.tr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757217259568-k9250mvfnksrffclrhje21adj24i56pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQcSOvFAUiy7ZkTVB5VKgHmtNdwPEuoBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757217259568-k9250mvfnksrffclrhje21adj24i56pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

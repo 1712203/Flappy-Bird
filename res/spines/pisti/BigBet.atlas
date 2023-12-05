@@ -1,0 +1,34 @@
+
+BigBet.png
+size: 554,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light
+  rotate: false
+  xy: 1, 127
+  size: 430, 426
+  orig: 430, 426
+  offset: 0, 0
+  index: -1
+Star
+  rotate: false
+  xy: 1, 1
+  size: 119, 125
+  orig: 119, 125
+  offset: 0, 0
+  index: -1
+Star_Glow
+  rotate: false
+  xy: 432, 437
+  size: 119, 116
+  orig: 119, 116
+  offset: 0, 0
+  index: -1
+star_yellow
+  rotate: false
+  xy: 121, 89
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1

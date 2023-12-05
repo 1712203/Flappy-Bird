@@ -1,0 +1,117 @@
+{
+    "productID": 50545,
+    "channels": [
+        {
+            "id": 5,
+            "name": "TXT_PAYMENT_CHANNEL_GOOGLE",
+            "paymentType": 0,
+            "channelType": ""
+        },
+        {
+            "id": 6,
+            "name": "TXT_PAYMENT_CHANNEL_APPLE",
+            "paymentType": 0,
+            "channelType": ""
+        },
+        {
+            "id": 8,
+            "name": "TXT_PAYMENT_CHANNEL_BANK",
+            "paymentType": 9810,
+            "channelType": "BANK"
+        },
+        {
+            "id": 22,
+            "name": "TXT_PAYMENT_CHANNEL_VODAFONE",
+            "paymentType": 9802,
+            "channelType": "SMS"
+        },
+        {
+            "id": 23,
+            "name": "TXT_PAYMENT_CHANNEL_TELEKOM",
+            "paymentType": 9801,
+            "channelType": "SMS"
+        },
+        {
+            "id": 25,
+            "name": "TXT_PAYMENT_CHANNEL_PAPARA",
+            "paymentType": 9812,
+            "channelType": "WALLET"
+        },
+        {
+            "id": 1000,
+            "name": "TXT_PAYMENT_CHANNEL_WEB",
+            "paymentType": 0,
+            "channelType": ""
+        }
+    ],
+    "paymentInfos": [
+        {
+            "paymentType": 1,
+            "name": "COIN",
+            "header": "TXT_BUY_COIN",
+            "icons": [
+                "icons/color/coins/Coin_x1.png",
+                "icons/color/coins/Coin_x2.png",
+                "icons/color/coins/Coin_x3.png",
+                "icons/color/coins/Coin_x4.png",
+                "icons/color/coins/CoinBag.png",
+                "icons/color/coins/CoinChest.png"
+            ]
+        },
+        {
+            "paymentType": 2,
+            "name": "GEM",
+            "header": "TXT_BUY_GEM",
+            "icons": [
+                "icons/color/gems/Gem_x1.png",
+                "icons/color/gems/Gem_x2.png",
+                "icons/color/gems/Gem_x3.png",
+                "icons/color/gems/Gem_x4.png",
+                "icons/color/gems/Gem_x5.png",
+                "icons/color/gems/Gem_x6.png"
+            ]
+        }
+    ],
+    "googleIAP": {
+        "googleLicenseKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAljQ08Vwstf76VaAZjwW3hqk4BnzSm0pyHYi8wuapNF74rYycbfcSno0G1Xt0uirseaxxf+pcnA8e/5vRb6ukrVa1qyOECKSMLLdm14McXXAmh9Z/DkAf7ErP6HUxy4nTCkzpy/tdYH+Zp21ij+bpxzWRguUVxYxjjZqsE7wGaGvtMj/+97Mi8QbrvKiXphlYjLRhvV5DzfFYPzwt4d8oUhPclt827jOCwhl70nzyD2UMgLb5kDQ3kxB8VRl5AUqYyeqSITTo/yOKYhB8cCrENK36NOd8QuUVLUTQ7DLENLIv75hRyR9WO7AbdETDTgzcLNZ8hBNkSFbNHWywaxTdrwIDAQAB",
+        "products": [
+            {"productKey": "1A", "productID": "zps.pack1"},
+            {"productKey": "1B", "productID": "zps.pack2"},
+            {"productKey": "1C", "productID": "zps.pack3"},
+            {"productKey": "2A", "productID": "zps.pack4"},
+            {"productKey": "2B", "productID": "zps.pack5"},
+            {"productKey": "2C", "productID": "zps.pack6"},
+            {"productKey": "3A", "productID": "zps.pack17"},
+            {"productKey": "3B", "productID": "zps.pack18"},
+            {"productKey": "5A", "productID": "zps.pack7"},
+            {"productKey": "5B", "productID": "zps.pack8"},
+            {"productKey": "10A", "productID": "zps.pack9"},
+            {"productKey": "10B", "productID": "zps.pack10"},
+            {"productKey": "20A", "productID": "zps.pack11"},
+            {"productKey": "20B", "productID": "zps.pack12"},
+            {"productKey": "50A", "productID": "zps.pack13"},
+            {"productKey": "50B", "productID": "zps.pack14"},
+            {"productKey": "100A", "productID": "zps.pack15"},
+            {"productKey": "100B", "productID": "zps.pack16"}
+        ]
+    },
+    "appleIAP": {
+        "products": [
+            {"productKey": "1A", "productID": "coin_0001_usd"},
+            {"productKey": "1B", "productID": "gem_0001_usd"},
+            {"productKey": "2A", "productID": "coin_0002_usd"},
+            {"productKey": "2B", "productID": "gem_0002_usd"},
+            {"productKey": "5A", "productID": "coin_0005_usd"},
+            {"productKey": "5B", "productID": "gem_0005_usd"},
+            {"productKey": "10A", "productID": "coin_0010_usd"},
+            {"productKey": "10B", "productID": "gem_0010_usd"},
+            {"productKey": "20A", "productID": "coin_0020_usd"},
+            {"productKey": "20B", "productID": "gem_0020_usd"},
+            {"productKey": "50A", "productID": "coin_0050_usd"},
+            {"productKey": "50B", "productID": "gem_0050_usd"},
+            {"productKey": "100A", "productID": "coin_0100_usd"},
+            {"productKey": "100B", "productID": "gem_0100_usd"}
+        ]
+    }
+
+}

@@ -1,0 +1,65 @@
+{
+    "gotoType": {
+        "GAME": 1,
+        "FRIEND": 2,
+        "JACKPOT": 3
+    },
+    "chestIcons": [
+        "icons/color/coins/CoinPile_02.png",
+        "icons/color/coins/CoinPile_02.png",
+        "icons/color/coins/CoinPile_02.png",
+        "icons/color/coins/CoinPile_02.png"
+    ],
+    "quests": [
+        {
+            "type": 316,
+            "icon": "new-comer/Newcomer_Quest_02.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 317,
+            "icon": "new-comer/Newcomer_Quest_03.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 307,
+            "icon": "new-comer/Newcomer_Quest_04.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 318,
+            "icon": "new-comer/Newcomer_Quest_05.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 319,
+            "icon": "new-comer/Newcomer_Quest_06.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 320,
+            "icon": "new-comer/Newcomer_Quest_07.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 321,
+            "icon": "new-comer/Newcomer_Quest_08.png",
+            "goto": "FRIEND"
+        },
+        {
+            "type": 322,
+            "icon": "new-comer/Newcomer_Quest_09.png",
+            "goto": "JACKPOT"
+        },
+        {
+            "type": 500,
+            "icon": "new-comer/Newcomer_Quest_10.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 323,
+            "icon": "new-comer/Newcomer_Quest_11.png",
+            "goto": "GAME"
+        }
+    ]
+}

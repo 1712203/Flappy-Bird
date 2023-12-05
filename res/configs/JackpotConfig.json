@@ -1,0 +1,69 @@
+{
+    "jackpots": [
+        {
+            "channel": 1000,
+            "wheelName": "TXT_JACKPOT_WHEEL_NORMAL",
+            "ticketName": "TXT_JACKPOT_WHEEL_NORMAL_TICKET",
+            "ticketIcon": "icons/color/wheel/Green.png",
+            "background": "sprites/backgrounds/jackpot/Normal.png",
+            "board": "jackpot/normal/JackpotBoard.png",
+            "wheelFont": "jackpot/normal/WheelFont.png",
+            "wheelBack": "jackpot/normal/WheelBack.png",
+            "needle": "jackpot/normal/Needle.png",
+            "jackpotCell": "jackpot/normal/JackpotCell.png",
+            "wheelNameImage": "texts/jackpot/NormalWheel.png",
+            "rewardHeader": "texts/jackpot/NormalWin.png",
+            "base": "jackpot/normal/Base.png",
+            "audio": ""
+        },
+        {
+            "channel": 10000,
+            "wheelName": "TXT_JACKPOT_WHEEL_BIG",
+            "ticketName": "TXT_JACKPOT_WHEEL_BIG_TICKET",
+            "ticketIcon": "icons/color/wheel/Purple.png",
+            "background": "sprites/backgrounds/jackpot/Big.png",
+            "board": "jackpot/big/JackpotBoard.png",
+            "wheelFont": "jackpot/big/WheelFont.png",
+            "wheelBack": "jackpot/big/WheelBack.png",
+            "needle": "jackpot/big/Needle.png",
+            "jackpotCell": "jackpot/big/JackpotCell.png",
+            "wheelNameImage": "texts/jackpot/BigWheel.png",
+            "rewardHeader": "texts/jackpot/BigWin.png",
+            "base": "jackpot/big/Base.png",
+            "audio": "audios/voice/BigWin.mp3"
+        },
+        {
+            "channel": 100000,
+            "wheelName": "TXT_JACKPOT_WHEEL_EPIC",
+            "ticketName": "TXT_JACKPOT_WHEEL_EPIC_TICKET",
+            "ticketIcon": "icons/color/wheel/Red.png",
+            "background": "sprites/backgrounds/jackpot/Epic.png",
+            "board": "jackpot/epic/JackpotBoard.png",
+            "wheelFont": "jackpot/epic/WheelFont.png",
+            "wheelBack": "jackpot/epic/WheelBack.png",
+            "needle": "jackpot/epic/Needle.png",
+            "jackpotCell": "jackpot/epic/JackpotCell.png",
+            "wheelNameImage": "texts/jackpot/EpicWheel.png",
+            "rewardHeader": "texts/jackpot/EpicWin.png",
+            "base": "jackpot/epic/Base.png",
+            "audio": "audios/voice/EpicWin.mp3"
+        },
+        {
+            "channel": 1000000,
+            "wheelName": "TXT_JACKPOT_WHEEL_MEGA",
+            "ticketName": "TXT_JACKPOT_WHEEL_MEGA_TICKET",
+            "ticketIcon": "icons/color/wheel/Yellow.png",
+            "background": "sprites/backgrounds/jackpot/Mega.png",
+            "board": "jackpot/mega/JackpotBoard.png",
+            "wheelFont": "jackpot/mega/WheelFont.png",
+            "wheelBack": "jackpot/mega/WheelBack.png",
+            "needle": "jackpot/mega/Needle.png",
+            "jackpotCell": "jackpot/mega/JackpotCell.png",
+            "wheelNameImage": "texts/jackpot/MegaWheel.png",
+            "rewardHeader": "texts/jackpot/MegaWin.png",
+            "base": "jackpot/mega/Base.png",
+            "audio": "audios/voice/MegaWin.mp3"
+        }
+    ],
+    "jackpotAudio": "audios/voice/WinJackpot.mp3"
+}

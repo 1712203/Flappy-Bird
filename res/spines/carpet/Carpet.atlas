@@ -1,0 +1,13 @@
+
+Carpet.png
+size: 167,166
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+carpet
+  rotate: false
+  xy: 1, 39
+  size: 165, 126
+  orig: 165, 126
+  offset: 0, 0
+  index: -1

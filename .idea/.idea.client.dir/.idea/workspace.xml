@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97098777-68d5-4c57-8cb0-228082ff79ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/base/feature/CKBaseFeatureManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/base/feature/data/CKBaseFeatureData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/base/feature/views/CKBaseFeatureIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/minigames/base/CKBaseMinigameManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/minigames/base/data/CKBaseMinigameData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/minigames/base/views/CKBaseMinigameButtonWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sprite-sheets/Home.plist" beforeDir="false" afterPath="$PROJECT_DIR$/res/sprite-sheets/Home.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sprite-sheets/Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/sprite-sheets/Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sprite-sheets/Icons.plist" beforeDir="false" afterPath="$PROJECT_DIR$/res/sprite-sheets/Icons.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sprite-sheets/Icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/sprite-sheets/Icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sprite-sheets/Texts.plist" beforeDir="false" afterPath="$PROJECT_DIR$/res/sprite-sheets/Texts.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sprite-sheets/Texts.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/sprite-sheets/Texts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sprites/backgrounds/Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/sprites/backgrounds/Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/bingo/BingoButtonWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/bingo/BingoButtonWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/events/happy-shark/HappySharkLayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/events/happy-shark/HappySharkLayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/gourd-crab/GourdCrabButtonWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/gourd-crab/GourdCrabButtonWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/home/HomeLayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/home/HomeLayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/item/ItemWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/item/ItemWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/item/ItemWidgetLarge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/item/ItemWidgetLarge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/jackpot/JackpotIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/jackpot/JackpotIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/loading/LoaderLayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/loading/LoaderLayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/minigames/card-flip/CardFlipButtonWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/minigames/card-flip/CardFlipButtonWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/minigames/poker/PokerButtonWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/minigames/poker/PokerButtonWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/minigames/slot-three/SlotThreeButtonWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/minigames/slot-three/SlotThreeButtonWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/pisti/BetChannelWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/pisti/BetChannelWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ccs/profile/UnlockedFeaturesPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ccs/profile/UnlockedFeaturesPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/CKGameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/CKGameManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/base/CKBaseView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/base/CKBaseView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/around-the-world/data/CKAroundTheWorldData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/around-the-world/data/CKAroundTheWorldData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/around-the-world/data/CKAroundTheWorldLand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/around-the-world/data/CKAroundTheWorldLand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/CKBaseEventManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/CKBaseEventManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/data/CKBaseEventData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/data/CKBaseEventData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/data/CKBaseEventInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/data/CKBaseEventInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/views/CKBaseEventIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/base/views/CKBaseEventIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/dragon-knight/CKDragonKnightManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/dragon-knight/CKDragonKnightManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/events/dragon-knight/data/CKDragonKnightData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/events/dragon-knight/data/CKDragonKnightData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/home/views/CKHomeLayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/home/views/CKHomeLayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/item/views/CKItemWidgetBehavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/item/views/CKItemWidgetBehavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/profile/CKProfileConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/profile/CKProfileConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/ranking/CKRankingManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/ranking/CKRankingManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/ranking/data/CKRankingData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/ranking/data/CKRankingData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/client-kit/modules/ranking/views/CKRankingIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/client-kit/modules/ranking/views/CKRankingIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/bingo/BingoManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/bingo/BingoManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/events/build-up-pay/BuildUpPayManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/events/build-up-pay/BuildUpPayManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/events/build-up-pay/data/BuildUpPayData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/events/build-up-pay/data/BuildUpPayData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/events/happy-shark/HappySharkManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/events/happy-shark/HappySharkManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/events/happy-shark/data/HappySharkData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/events/happy-shark/data/HappySharkData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/events/new-comer/NewComerManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/events/new-comer/NewComerManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/events/new-comer/data/NewComerQuestData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/events/new-comer/data/NewComerQuestData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home/views/HomeLayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home/views/HomeLayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/jackpot/JackpotManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/jackpot/JackpotManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/jackpot/data/JackpotData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/jackpot/data/JackpotData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/jackpot/network/JackpotHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/jackpot/network/JackpotHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/jackpot/views/JackpotIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/jackpot/views/JackpotIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/minigames/MinigameManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/pisti/PistiConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/pisti/PistiConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/pisti/PistiManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/pisti/PistiManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/pisti/data/BetChannel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/pisti/data/BetChannel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/pisti/views/BetChannelWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/pisti/views/BetChannelWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/profile/ProfileConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/profile/ProfileConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocos-studio.ccs" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocos-studio.ccs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/bingo/BingoButtonWidget.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/bingo/BingoButtonWidget.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/events/happy-shark/HappySharkLayer.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/events/happy-shark/HappySharkLayer.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/gourd-crab/GourdCrabButtonWidget.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/gourd-crab/GourdCrabButtonWidget.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/home/HomeLayer.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/home/HomeLayer.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/item/ItemWidget.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/item/ItemWidget.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/item/ItemWidgetLarge.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/item/ItemWidgetLarge.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/jackpot/JackpotIcon.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/jackpot/JackpotIcon.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/loading/LoaderLayer.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/loading/LoaderLayer.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/minigames/card-flip/CardFlipButtonWidget.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/minigames/card-flip/CardFlipButtonWidget.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/minigames/poker/PokerButtonWidget.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/minigames/poker/PokerButtonWidget.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/minigames/slot-three/SlotThreeButtonWidget.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/minigames/slot-three/SlotThreeButtonWidget.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/pisti/BetChannelWidget.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/pisti/BetChannelWidget.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/profile/UnlockedFeaturesPopup.csd" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/_ccs/profile/UnlockedFeaturesPopup.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Home.plist" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Home.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Icons.plist" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Icons.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Texts.plist" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Texts.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Texts.png" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprite-sheets/Texts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprites/backgrounds/Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprites/backgrounds/Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprites/minigames/slot-three/Jackpot_Spin_Board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprites/minigames/slot-three/Jackpot_Spin_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos-studio/cocosstudio/sprites/minigames/slot-three/Jackpot_Spin_Text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/home/sprites/home/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/home/sprites/home/Play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/MinigameMenu.tps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/export.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/sprites/minigame-menu/BackgroundRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/sprites/minigame-menu/bingo/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/sprites/minigame-menu/bingo/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/sprites/minigame-menu/bingo/Text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/sprites/minigame-menu/card-flip/Card_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/minigame-menu/sprites/minigame-menu/card-flip/Card_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/texts/sprites/texts/card-flip/FlipCards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/texture-packer/texts/sprites/texts/home/Play.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DErd63J09e4d2TA6JroPqCrjcQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1660275221276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660275221276</updated>
+      <workItem from="1660275316549" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

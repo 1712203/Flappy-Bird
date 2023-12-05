@@ -1,0 +1,335 @@
+
+DragonKnightBanner.png
+size: 1321,1321
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dargon_leg1
+  rotate: false
+  xy: 963, 191
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+dragon_body
+  rotate: false
+  xy: 796, 352
+  size: 318, 212
+  orig: 318, 212
+  offset: 0, 0
+  index: -1
+dragon_claw1
+  rotate: false
+  xy: 1278, 219
+  size: 34, 34
+  orig: 36, 36
+  offset: 1, 1
+  index: -1
+dragon_claw2
+  rotate: false
+  xy: 1160, 833
+  size: 35, 32
+  orig: 37, 34
+  offset: 1, 1
+  index: -1
+dragon_claw3
+  rotate: false
+  xy: 1160, 806
+  size: 34, 26
+  orig: 36, 28
+  offset: 1, 1
+  index: -1
+dragon_earth
+  rotate: false
+  xy: 0, 360
+  size: 530, 424
+  orig: 532, 426
+  offset: 1, 1
+  index: -1
+dragon_earth_larva
+  rotate: false
+  xy: 583, 1085
+  size: 518, 236
+  orig: 520, 238
+  offset: 1, 1
+  index: -1
+dragon_egg
+  rotate: false
+  xy: 551, 0
+  size: 125, 140
+  orig: 127, 142
+  offset: 1, 1
+  index: -1
+dragon_eye
+  rotate: true
+  xy: 1214, 317
+  size: 37, 39
+  orig: 39, 41
+  offset: 1, 1
+  index: -1
+dragon_eye_closeL
+  rotate: false
+  xy: 1275, 1226
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+dragon_eye_closeR
+  rotate: false
+  xy: 1275, 1184
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+dragon_eye_in
+  rotate: true
+  xy: 1278, 254
+  size: 100, 43
+  orig: 102, 45
+  offset: 1, 1
+  index: -1
+dragon_eye_shadow
+  rotate: true
+  xy: 677, 4
+  size: 136, 97
+  orig: 138, 99
+  offset: 1, 1
+  index: -1
+dragon_face
+  rotate: false
+  xy: 1102, 1125
+  size: 172, 196
+  orig: 172, 196
+  offset: 0, 0
+  index: -1
+dragon_leg2
+  rotate: true
+  xy: 775, 2
+  size: 80, 133
+  orig: 80, 133
+  offset: 0, 0
+  index: -1
+dragon_leg3
+  rotate: false
+  xy: 775, 182
+  size: 187, 169
+  orig: 189, 171
+  offset: 1, 1
+  index: -1
+dragon_mouth
+  rotate: true
+  xy: 1259, 990
+  size: 63, 59
+  orig: 63, 59
+  offset: 0, 0
+  index: -1
+dragon_rock1
+  rotate: true
+  xy: 1169, 24
+  size: 52, 82
+  orig: 54, 84
+  offset: 1, 1
+  index: -1
+dragon_rock2
+  rotate: true
+  xy: 1102, 1086
+  size: 38, 49
+  orig: 40, 51
+  offset: 1, 1
+  index: -1
+dragon_tail
+  rotate: false
+  xy: 531, 395
+  size: 264, 389
+  orig: 264, 389
+  offset: 0, 0
+  index: -1
+dragon_text_fx/dragon_text_01
+  rotate: true
+  xy: 0, 6
+  size: 29, 42
+  orig: 562, 100
+  offset: 1, 42
+  index: -1
+dragon_text_fx/dragon_text_02
+  rotate: false
+  xy: 1259, 1054
+  size: 52, 70
+  orig: 562, 100
+  offset: 1, 16
+  index: -1
+dragon_text_fx/dragon_text_03
+  rotate: false
+  xy: 451, 29
+  size: 90, 77
+  orig: 562, 100
+  offset: 1, 13
+  index: -1
+dragon_text_fx/dragon_text_04
+  rotate: false
+  xy: 909, 1
+  size: 113, 81
+  orig: 562, 100
+  offset: 1, 10
+  index: -1
+dragon_text_fx/dragon_text_05
+  rotate: true
+  xy: 1187, 155
+  size: 161, 90
+  orig: 562, 100
+  offset: 1, 7
+  index: -1
+dragon_text_fx/dragon_text_06
+  rotate: true
+  xy: 1092, 104
+  size: 212, 94
+  orig: 562, 100
+  offset: 1, 5
+  index: -1
+dragon_text_fx/dragon_text_07
+  rotate: true
+  xy: 453, 107
+  size: 252, 97
+  orig: 562, 100
+  offset: 9, 2
+  index: -1
+dragon_text_fx/dragon_text_08
+  rotate: true
+  xy: 1115, 317
+  size: 248, 98
+  orig: 562, 100
+  offset: 57, 1
+  index: -1
+dragon_text_fx/dragon_text_09
+  rotate: false
+  xy: 775, 83
+  size: 243, 98
+  orig: 562, 100
+  offset: 95, 1
+  index: -1
+dragon_text_fx/dragon_text_10
+  rotate: true
+  xy: 1160, 866
+  size: 258, 98
+  orig: 562, 100
+  offset: 145, 1
+  index: -1
+dragon_text_fx/dragon_text_11
+  rotate: false
+  xy: 0, 36
+  size: 261, 97
+  orig: 562, 100
+  offset: 187, 1
+  index: -1
+dragon_text_fx/dragon_text_12
+  rotate: true
+  xy: 1196, 609
+  size: 256, 96
+  orig: 562, 100
+  offset: 237, 1
+  index: -1
+dragon_text_fx/dragon_text_13
+  rotate: true
+  xy: 1214, 355
+  size: 253, 94
+  orig: 562, 100
+  offset: 282, 2
+  index: -1
+dragon_text_fx/dragon_text_14
+  rotate: true
+  xy: 1104, 566
+  size: 228, 91
+  orig: 562, 100
+  offset: 328, 3
+  index: -1
+dragon_text_fx/dragon_text_15
+  rotate: false
+  xy: 262, 43
+  size: 188, 90
+  orig: 562, 100
+  offset: 373, 4
+  index: -1
+dragon_text_fx/dragon_text_16
+  rotate: false
+  xy: 1023, 20
+  size: 145, 83
+  orig: 562, 100
+  offset: 416, 6
+  index: -1
+dragon_text_fx/dragon_text_17
+  rotate: false
+  xy: 1187, 77
+  size: 108, 77
+  orig: 562, 100
+  offset: 453, 9
+  index: -1
+dragon_text_fx/dragon_text_18
+  rotate: true
+  xy: 1019, 114
+  size: 76, 72
+  orig: 562, 100
+  offset: 485, 11
+  index: -1
+dragon_text_fx/dragon_text_19
+  rotate: true
+  xy: 1275, 1272
+  size: 49, 46
+  orig: 562, 100
+  offset: 512, 14
+  index: -1
+dragon_text_fx/dragon_text_20
+  rotate: false
+  xy: 1259, 956
+  size: 27, 33
+  orig: 562, 100
+  offset: 534, 15
+  index: -1
+dragon_ui_back
+  rotate: false
+  xy: 0, 785
+  size: 582, 536
+  orig: 584, 538
+  offset: 1, 1
+  index: -1
+dragon_ui_title
+  rotate: false
+  xy: 583, 940
+  size: 576, 144
+  orig: 578, 146
+  offset: 1, 1
+  index: -1
+dragon_ui_title_TUR
+  rotate: false
+  xy: 583, 795
+  size: 576, 144
+  orig: 578, 146
+  offset: 2, 0
+  index: -1
+dragon_wing1
+  rotate: false
+  xy: 796, 565
+  size: 307, 229
+  orig: 307, 229
+  offset: 0, 0
+  index: -1
+dragon_wing2
+  rotate: false
+  xy: 551, 141
+  size: 223, 253
+  orig: 223, 253
+  offset: 0, 0
+  index: -1
+fx_particles
+  rotate: false
+  xy: 0, 134
+  size: 452, 225
+  orig: 452, 225
+  offset: 0, 0
+  index: -1
+fx_star
+  rotate: false
+  xy: 1252, 3
+  size: 69, 73
+  orig: 69, 73
+  offset: 0, 0
+  index: -1

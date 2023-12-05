@@ -1,0 +1,76 @@
+
+skeleton.png
+size: 608,608
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_01
+  rotate: false
+  xy: 150, 520
+  size: 66, 88
+  orig: 66, 88
+  offset: 0, 0
+  index: -1
+Arm_02
+  rotate: false
+  xy: 217, 538
+  size: 35, 70
+  orig: 35, 70
+  offset: 0, 0
+  index: -1
+Arm_03
+  rotate: false
+  xy: 280, 541
+  size: 46, 29
+  orig: 46, 30
+  offset: 0, 0
+  index: -1
+Arm_04
+  rotate: false
+  xy: 150, 331
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+Arm_Card
+  rotate: false
+  xy: 280, 571
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+Arm_Right_01
+  rotate: false
+  xy: 253, 539
+  size: 26, 69
+  orig: 26, 69
+  offset: 0, 0
+  index: -1
+Arm_Right_02
+  rotate: false
+  xy: 150, 387
+  size: 51, 49
+  orig: 51, 49
+  offset: 0, 0
+  index: -1
+Arm_Right_03
+  rotate: true
+  xy: 150, 437
+  size: 82, 65
+  orig: 82, 65
+  offset: 0, 0
+  index: -1
+Arm_Right_04
+  rotate: false
+  xy: 150, 275
+  size: 26, 55
+  orig: 26, 55
+  offset: 0, 0
+  index: -1
+NPC
+  rotate: false
+  xy: 0, 0
+  size: 149, 608
+  orig: 149, 608
+  offset: 0, 0
+  index: -1

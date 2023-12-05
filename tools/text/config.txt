@@ -1,0 +1,2 @@
+input:D:\projects\games\zps\pisti\client\tools\text\Text.xlsx
+output:.\temp

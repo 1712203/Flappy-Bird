@@ -1,0 +1,118 @@
+
+Hammer.png
+size: 686,685
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_1
+  rotate: false
+  xy: 1, 353
+  size: 523, 331
+  orig: 523, 331
+  offset: 0, 0
+  index: -1
+hammer_1/body
+  rotate: false
+  xy: 525, 326
+  size: 160, 123
+  orig: 160, 123
+  offset: 0, 0
+  index: -1
+hammer_1/holder
+  rotate: false
+  xy: 427, 9
+  size: 44, 74
+  orig: 44, 74
+  offset: 0, 0
+  index: -1
+hammer_2/body
+  rotate: false
+  xy: 287, 84
+  size: 181, 123
+  orig: 181, 123
+  offset: 0, 0
+  index: -1
+hammer_2/holder
+  rotate: false
+  xy: 537, 20
+  size: 67, 71
+  orig: 67, 71
+  offset: 0, 0
+  index: -1
+hammer_3/body
+  rotate: false
+  xy: 464, 209
+  size: 197, 116
+  orig: 197, 116
+  offset: 0, 0
+  index: -1
+hammer_3/holder
+  rotate: false
+  xy: 472, 16
+  size: 64, 75
+  orig: 64, 75
+  offset: 0, 0
+  index: -1
+hammer_4/body
+  rotate: false
+  xy: 469, 92
+  size: 195, 116
+  orig: 195, 116
+  offset: 0, 0
+  index: -1
+hammer_4/holder
+  rotate: true
+  xy: 257, 25
+  size: 58, 84
+  orig: 58, 84
+  offset: 0, 0
+  index: -1
+hammer_5/body
+  rotate: false
+  xy: 1, 7
+  size: 197, 118
+  orig: 197, 118
+  offset: 0, 0
+  index: -1
+hammer_5/holder
+  rotate: false
+  xy: 199, 37
+  size: 57, 88
+  orig: 57, 88
+  offset: 0, 0
+  index: -1
+hammer_6/body
+  rotate: true
+  xy: 525, 450
+  size: 234, 143
+  orig: 234, 143
+  offset: 0, 0
+  index: -1
+hammer_6/holder
+  rotate: true
+  xy: 342, 26
+  size: 57, 84
+  orig: 57, 84
+  offset: 0, 0
+  index: -1
+icon_kittybank
+  rotate: false
+  xy: 1, 126
+  size: 285, 226
+  orig: 285, 260
+  offset: 0, 17
+  index: -1
+icon_kittybank_glow
+  rotate: false
+  xy: 287, 208
+  size: 176, 144
+  orig: 176, 163
+  offset: 0, 10
+  index: -1
+star
+  rotate: false
+  xy: 605, 52
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1

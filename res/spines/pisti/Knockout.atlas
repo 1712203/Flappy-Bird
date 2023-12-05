@@ -1,0 +1,27 @@
+
+Knockout.png
+size: 253,253
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bankrupt
+  rotate: false
+  xy: 1, 1
+  size: 84, 72
+  orig: 84, 72
+  offset: 0, 0
+  index: -1
+Bankrupt_TUR
+  rotate: true
+  xy: 1, 74
+  size: 85, 72
+  orig: 85, 72
+  offset: 0, 0
+  index: -1
+Seal
+  rotate: false
+  xy: 1, 160
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1

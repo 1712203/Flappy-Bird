@@ -1,0 +1,27 @@
+{
+    "is_landscape": false, 
+    "name": "Pisti", 
+    "android": {
+        "package_name": "com.zps.pisti.inter.android", 
+        "use_firebase_analytics": true, 
+        "use_crashlytics": true, 
+        "google_license_key": "", 
+        "app_abi": [
+            "armeabi-v7a", 
+            "arm64-v8a"
+        ]
+    }, 
+    "tracker": {
+        "app_name": ""
+    }, 
+    "social": {
+        "facebook": {
+            "id": "", 
+            "use_provider": true
+        }, 
+        "google": {
+            "id": ""
+        }
+    }, 
+    "country": "inter"
+}

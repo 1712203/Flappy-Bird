@@ -1,0 +1,146 @@
+{
+    "gotoType": {
+        "GAME": 1,
+        "FRIEND": 2,
+        "SLOT": 3,
+        "MINIGAME": 4,
+        "SLOT3": 5,
+        "CAT_AND_FISH": 6,
+        "PIN_BALL": 7,
+        "BINGO": 8,
+        "POKER": 9,
+        "FLIP_CARD": 10
+    },
+    "chestIcons": [
+        "icons/color/coins/CoinChest.png",
+        "icons/color/coins/CoinChest.png",
+        "icons/color/coins/CoinChest.png",
+        "icons/color/coins/CoinChest.png"
+    ],
+    "quests": [
+        {
+            "type": 500,
+            "icon": "icons/color/quests/FinishAll.png",
+			"colorBg": "#F3F346",
+            "goto": "GAME"
+        },
+		{
+            "type": 350,
+            "goto": "PIN_BALL"
+        },
+		{
+            "type": 330,
+            "goto": "POKER"
+        },
+		{
+            "type": 328,
+            "goto": "FLIP_CARD"
+        },
+		{
+            "type": 326,
+            "goto": "BINGO"
+        },
+		{
+            "type": 324,
+            "goto": "SLOT3"
+        },
+		{
+            "type": 313,
+            "goto": "CAT_AND_FISH"
+        },
+        {
+            "type": 301,
+            "icon": "texts/quest/GapPoints.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 302,
+            "icon": "icons/color/quests/CollectCard.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 4,
+            "icon": "icons/color/quests/Card2C.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 5,
+            "icon": "icons/color/quests/Card10D.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 6,
+            "icon": "icons/color/quests/CardJacks.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 7,
+            "icon": "icons/color/quests/CardAces.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 8,
+            "icon": "icons/color/quests/CollectMoreCard.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 9,
+            "icon": "texts/quest/PlayWithBet.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 10,
+            "icon": "texts/quest/Pisti.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 11,
+            "icon": "icons/color/quests/SpinSlotMachine.png",
+            "goto": "SLOT"
+        },
+        {
+            "type": 12,
+            "icon": "icons/color/quests/AddFriend.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 13,
+            "icon": "texts/quest/PlayMiniGames.png",
+            "goto": "MINIGAME"
+        },
+        {
+            "type": 14,
+            "icon": "texts/quest/WinMiniGames.png",
+            "goto": "MINIGAME"
+        },
+        {
+            "type": 15,
+            "icon": "icons/color/quests/SendGiftToFriend.png",
+            "goto": "FRIEND"
+        },
+		{
+            "type": 308,
+            "goto": "FRIEND"
+        },
+        {
+            "type": 16,
+            "icon": "texts/quest/WinMiniGame1st.png",
+            "goto": "MINIGAME"
+        },
+        {
+            "type": 17,
+            "icon": "icons/color/quests/SendRose.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 18,
+            "icon": "icons/color/quests/SendHeart.png",
+            "goto": "GAME"
+        },
+        {
+            "type": 19,
+            "icon": "icons/color/quests/UseItem.png",
+            "goto": "GAME"
+        }
+    ]
+}

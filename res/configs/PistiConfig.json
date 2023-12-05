@@ -1,0 +1,144 @@
+{
+    "cards": [
+        {
+            "value": 1,
+            "suit": 1,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 1,
+            "suit": 2,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 1,
+            "suit": 3,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 1,
+            "suit": 4,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 11,
+            "suit": 1,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 11,
+            "suit": 2,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 11,
+            "suit": 3,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 11,
+            "suit": 4,
+            "score": 1,
+            "audio": "audios/voice/GoodJob.mp3"
+        },
+        {
+            "value": 2,
+            "suit": 2,
+            "score": 2,
+            "audio": "audios/voice/Nice.mp3"
+        },
+        {
+            "value": 10,
+            "suit": 3,
+            "score": 3,
+            "audio": "audios/voice/Greate.mp3"
+        }
+    ],
+    "pistiScore": 10,
+    "doublePistiScore": 20,
+    "mostCardScore": 3,
+    "timeToPlaceCard": 10,
+    "chat": {
+        "suggestedMessage": [
+            "TXT_SUGGESTED_MESSAGE_02",
+            "TXT_SUGGESTED_MESSAGE_04",
+            "TXT_SUGGESTED_MESSAGE_05",
+            "TXT_SUGGESTED_MESSAGE_06",
+            "TXT_SUGGESTED_MESSAGE_07",
+            "TXT_SUGGESTED_MESSAGE_08"
+        ],
+        "emoji": [
+            "CRAZY",
+            "CRY",
+            "DIZZY",
+            "HI",
+            "SURPRISE",
+            "WIN"
+        ]
+    },
+    "welcomeChat": {
+        "message": [
+            "TXT_WELCOME_MESSAGE_01",
+            "TXT_WELCOME_MESSAGE_02",
+            "TXT_WELCOME_MESSAGE_03"
+        ],
+        "emoji": [
+            "HI",
+            "WIN"
+        ]
+    },
+    "summaryInfo": [
+        {
+            "type": 1,
+            "constantsKey": "WIN_MATCH",
+            "title": "TXT_WIN",
+            "unit": "TXT_GAMES",
+            "starColor": "#ffff00",
+            "titleColor": "#feb557"
+        },
+        {
+            "type": 2,
+            "constantsKey": "LOSE_MATCH",
+            "title": "TXT_LOSE",
+            "unit": "TXT_GAMES",
+            "titleColor": "#42c3e3",
+            "amountColor": "#a1a0a7"
+        },
+        {
+            "type": 3,
+            "constantsKey": "DRAW_MATCH",
+            "title": "TXT_DRAW",
+            "unit": "TXT_GAMES",
+            "titleColor": "#5f8dc0",
+            "amountColor": "#a1a0a7"
+        },
+        {
+            "type": 4,
+            "constantsKey": "KNOCK_OUT_PLAYER",
+            "title": "TXT_KNOCK_OUT",
+            "unit": "TXT_PLAYERS",
+            "titleColor": "#5f8dc0"
+        },
+        {
+            "type": 5,
+            "constantsKey": "PISTI",
+            "icon": "texts/game/Pisti.png",
+            "unit": "TXT_TIMES",
+            "amountColor": "#f96fc6"
+        },
+        {
+            "type": 6,
+            "constantsKey": "DOUBLE_PISTI",
+            "icon": "texts/game/Pistix2.png",
+            "unit": "TXT_TIMES",
+            "amountColor": "#f96fc6"
+        }
+    ]
+}

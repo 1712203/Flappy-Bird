@@ -1,0 +1,73 @@
+material ck
+{
+    technique normal
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = shaders/BaseVsh.vsh
+                fragmentShader = shaders/Normal.fsh
+            }
+        }
+    }
+    technique blur
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = shaders/BaseVsh.vsh
+                fragmentShader = shaders/Blur.fsh
+                // Custom uniforms
+                blurRadius = 8
+                sampleNum = 5
+                resolution = 100,100
+            }
+        }
+    }
+    technique clipping_ellipse
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = shaders/BaseVsh.vsh
+                fragmentShader = shaders/ClippingEllipse.fsh
+            }
+        }
+    }
+    technique light_sweep
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = shaders/BaseVsh.vsh
+                fragmentShader = shaders/LightSweep.fsh
+            }
+        }
+    }
+    technique gray_scale
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = shaders/BaseVsh.vsh
+                fragmentShader = shaders/GrayScale.fsh
+            }
+        }
+    }
+    technique clipping
+    {
+        pass 0
+        {
+            shader
+            {
+                vertexShader = shaders/BaseVsh.vsh
+                fragmentShader = shaders/Clipping.fsh
+            }
+        }
+    }
+}

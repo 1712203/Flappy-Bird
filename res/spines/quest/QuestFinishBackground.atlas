@@ -1,0 +1,41 @@
+
+QuestFinishBackground.png
+size: 476,474
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Board_Quest_02
+  rotate: false
+  xy: 2, 344
+  size: 472, 128
+  orig: 472, 128
+  offset: 0, 0
+  index: -1
+Hightlight_01
+  rotate: false
+  xy: 2, 216
+  size: 312, 126
+  orig: 312, 126
+  offset: 0, 0
+  index: -1
+Hightlight_02
+  rotate: false
+  xy: 2, 92
+  size: 40, 122
+  orig: 40, 122
+  offset: 0, 0
+  index: -1
+Hightlight_03
+  rotate: false
+  xy: 316, 220
+  size: 29, 122
+  orig: 29, 122
+  offset: 0, 0
+  index: -1
+Hightlight_04
+  rotate: false
+  xy: 44, 92
+  size: 23, 122
+  orig: 23, 122
+  offset: 0, 0
+  index: -1

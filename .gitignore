@@ -1,0 +1,19 @@
+# temp assets
+/res/temp
+/res/_ccs
+/res/_fakes
+/res/_temp
+/temp
+
+# tools
+/tools/text/temp
+/tools/text/localize
+/tools/text/import
+/tools/texture-packer/config.bat
+*_PList.Dir
+/tools/object-creator/temp
+/tools/object-creator/object/*
+!/tools/object-creator/object/Example.js
+InfoConfig.xml
+
+simulator/win32/config.json

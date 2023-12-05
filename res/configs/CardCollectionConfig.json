@@ -1,0 +1,298 @@
+{
+  "cardSets": [
+    {
+      "id": 1401,
+      "name": "TXT_CARD_SET_STATUE",
+      "icon": "card-collection/sets/Statue.png"
+    },
+    {
+      "id": 1402,
+      "name": "TXT_CARD_SET_FISH",
+      "icon": "card-collection/sets/Fish.png"
+    },
+    {
+      "id": 1403,
+      "name": "TXT_CARD_SET_GIRL",
+      "icon": "card-collection/sets/Girl.png"
+    },
+    {
+      "id": 1404,
+      "name": "TXT_CARD_SET_FRUIT",
+      "icon": "card-collection/sets/Fruit.png"
+    },
+    {
+      "id": 1405,
+      "name": "TXT_CARD_SET_FAST_FOOD",
+      "icon": "card-collection/sets/FastFood.png"
+    },
+    {
+      "id": 1406,
+      "name": "TXT_CARD_SET_MEXICO",
+      "icon": "card-collection/sets/Mexico.png"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1501,
+      "name": "TXT_CARD_STATUE_01",
+      "icon": "card-collection/cards/Statue_01.png",
+      "useScaleMax": true
+    },
+    {
+      "id": 1502,
+      "name": "TXT_CARD_STATUE_02",
+      "icon": "card-collection/cards/Statue_02.png",
+      "useScaleMax": true
+    },
+    {
+      "id": 1503,
+      "name": "TXT_CARD_STATUE_03",
+      "icon": "card-collection/cards/Statue_03.png",
+      "useScaleMax": true
+    },
+    {
+      "id": 1504,
+      "name": "TXT_CARD_STATUE_04",
+      "icon": "card-collection/cards/Statue_04.png",
+      "useScaleMax": true
+    },
+    {
+      "id": 1505,
+      "name": "TXT_CARD_STATUE_05",
+      "icon": "card-collection/cards/Statue_05.png",
+      "useScaleMax": true
+    },
+    {
+      "id": 1506,
+      "name": "TXT_CARD_STATUE_06",
+      "icon": "card-collection/cards/Statue_06.png",
+      "useScaleMax": true
+    },
+    {
+      "id": 1521,
+      "name": "TXT_CARD_FISH_01",
+      "icon": "card-collection/cards/Fish_01.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1522,
+      "name": "TXT_CARD_FISH_02",
+      "icon": "card-collection/cards/Fish_02.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1523,
+      "name": "TXT_CARD_FISH_03",
+      "icon": "card-collection/cards/Fish_03.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1524,
+      "name": "TXT_CARD_FISH_04",
+      "icon": "card-collection/cards/Fish_04.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1525,
+      "name": "TXT_CARD_FISH_05",
+      "icon": "card-collection/cards/Fish_05.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1526,
+      "name": "TXT_CARD_FISH_06",
+      "icon": "card-collection/cards/Fish_06.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1541,
+      "name": "TXT_CARD_GIRL_01",
+      "icon": "card-collection/cards/Girl_01.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1542,
+      "name": "TXT_CARD_GIRL_02",
+      "icon": "card-collection/cards/Girl_02.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1543,
+      "name": "TXT_CARD_GIRL_03",
+      "icon": "card-collection/cards/Girl_03.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1544,
+      "name": "TXT_CARD_GIRL_04",
+      "icon": "card-collection/cards/Girl_04.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1545,
+      "name": "TXT_CARD_GIRL_05",
+      "icon": "card-collection/cards/Girl_05.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1546,
+      "name": "TXT_CARD_GIRL_06",
+      "icon": "card-collection/cards/Girl_06.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1561,
+      "name": "TXT_CARD_FRUIT_01",
+      "icon": "card-collection/cards/Fruit_01.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1562,
+      "name": "TXT_CARD_FRUIT_02",
+      "icon": "card-collection/cards/Fruit_02.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1563,
+      "name": "TXT_CARD_FRUIT_03",
+      "icon": "card-collection/cards/Fruit_03.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1564,
+      "name": "TXT_CARD_FRUIT_04",
+      "icon": "card-collection/cards/Fruit_04.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1565,
+      "name": "TXT_CARD_FRUIT_05",
+      "icon": "card-collection/cards/Fruit_05.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1566,
+      "name": "TXT_CARD_FRUIT_06",
+      "icon": "card-collection/cards/Fruit_06.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1581,
+      "name": "TXT_CARD_FAST_FOOD_01",
+      "icon": "card-collection/cards/FastFood_01.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1582,
+      "name": "TXT_CARD_FAST_FOOD_02",
+      "icon": "card-collection/cards/FastFood_02.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1583,
+      "name": "TXT_CARD_FAST_FOOD_03",
+      "icon": "card-collection/cards/FastFood_03.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1584,
+      "name": "TXT_CARD_FAST_FOOD_04",
+      "icon": "card-collection/cards/FastFood_04.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1585,
+      "name": "TXT_CARD_FAST_FOOD_05",
+      "icon": "card-collection/cards/FastFood_05.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1586,
+      "name": "TXT_CARD_FAST_FOOD_06",
+      "icon": "card-collection/cards/FastFood_06.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1601,
+      "name": "TXT_CARD_MEXICO_01",
+      "icon": "card-collection/cards/Mexico_01.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1602,
+      "name": "TXT_CARD_MEXICO_02",
+      "icon": "card-collection/cards/Mexico_02.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1603,
+      "name": "TXT_CARD_MEXICO_03",
+      "icon": "card-collection/cards/Mexico_03.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1604,
+      "name": "TXT_CARD_MEXICO_04",
+      "icon": "card-collection/cards/Mexico_04.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1605,
+      "name": "TXT_CARD_MEXICO_05",
+      "icon": "card-collection/cards/Mexico_05.png",
+      "useScaleMax": false
+    },
+    {
+      "id": 1606,
+      "name": "TXT_CARD_MEXICO_06",
+      "icon": "card-collection/cards/Mexico_06.png",
+      "useScaleMax": false
+    }
+  ],
+  "textNameColors": {
+    "normal": {
+      "common": "#1d36a2",
+      "rare": "#590000"
+    }
+  },
+  "cardFrames": {
+    "normal": {
+      "common": "card-collection/card-elements/CardCommonFrame.png",
+      "rare": "card-collection/card-elements/CardRareFrame.png"
+    },
+    "large": {
+      "common": "card-collection/card-elements/CardCommonFrameLarge.png",
+      "rare": "card-collection/card-elements/CardRareFrameLarge.png"
+    }
+  },
+  "cardAvatarBgrs": {
+    "normal": {
+      "common": "card-collection/card-elements/CardCommonBlank.png",
+      "rare": "card-collection/card-elements/CardRareBlank.png"
+    },
+    "large": {
+      "common": "card-collection/card-elements/CardCommonBlank.png",
+      "rare": "card-collection/card-elements/CardRareBlank.png"
+    }
+  },
+  "cardStarBlanks": {
+    "normal": {
+      "common": "card-collection/card-elements/StarCommonBlank.png",
+      "rare": "card-collection/card-elements/StarRareBlank.png"
+    },
+    "large": {
+      "common": "card-collection/card-elements/StarCommonBlank.png",
+      "rare": "card-collection/card-elements/StarRareBlank.png"
+    }
+  },
+  "cardStars": {
+    "normal": {
+      "common": "card-collection/card-elements/Star.png",
+      "rare": "card-collection/card-elements/Star.png"
+    },
+    "large": {
+      "common": "card-collection/card-elements/StarLarge.png",
+      "rare": "card-collection/card-elements/StarLarge.png"
+    }
+  }
+}

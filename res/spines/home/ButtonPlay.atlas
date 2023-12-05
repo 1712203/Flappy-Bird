@@ -1,0 +1,55 @@
+
+ButtonPlay.png
+size: 524,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Card_01
+  rotate: false
+  xy: 272, 8
+  size: 138, 145
+  orig: 138, 145
+  offset: 0, 0
+  index: -1
+Card_02
+  rotate: true
+  xy: 412, 3
+  size: 150, 87
+  orig: 150, 87
+  offset: 0, 0
+  index: -1
+Playnow_Button_01
+  rotate: false
+  xy: 2, 191
+  size: 346, 329
+  orig: 346, 329
+  offset: 0, 0
+  index: -1
+Playnow_Button_02
+  rotate: false
+  xy: 2, 103
+  size: 268, 86
+  orig: 268, 86
+  offset: 0, 0
+  index: -1
+Playnow_EN_Text
+  rotate: true
+  xy: 471, 336
+  size: 184, 51
+  orig: 184, 51
+  offset: 0, 0
+  index: -1
+Playnow_TUR_Text
+  rotate: false
+  xy: 2, 41
+  size: 213, 60
+  orig: 213, 60
+  offset: 0, 0
+  index: -1
+light_vang
+  rotate: true
+  xy: 350, 155
+  size: 365, 119
+  orig: 365, 119
+  offset: 0, 0
+  index: -1

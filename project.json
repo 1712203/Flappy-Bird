@@ -1,0 +1,50 @@
+{
+    "project_type": "javascript",
+    "debugMode": 0,
+    "showFPS": false,
+    "frameRate": 60,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+    "modules": [
+        "cocos2d"
+    ],
+    "jsList": [
+        "src/libs/client-kit/CKBoot.js",
+
+        "src/libs/plugins/JSBPlugin.js",
+        "src/libs/plugins/Facebook.js",
+        "src/libs/plugins/Google.js",
+        "src/libs/plugins/GoogleIAP.js",
+        "src/libs/plugins/Apple.js",
+        "src/libs/plugins/AppleIAP.js",
+        "src/libs/plugins/Wrapper.js",
+        "src/libs/plugins/FirebaseAnalytic.js",
+        "src/libs/plugins/FirebaseCloudMessaging.js",
+        "src/libs/plugins/Wrapper.js",
+        "src/libs/plugins/Portal.js",
+        "src/libs/plugins/ZPTracker.js",
+        "src/libs/plugins/StepTracking.js",
+        "src/libs/plugins/Appsflyer.js",
+        "src/libs/md5.js",
+        "src/libs/base64.js",
+        "src/libs/underscore.js",
+
+        "src/libs/client-kit/utils/CKMath.js",
+        "src/libs/client-kit/utils/CKArrayUtils.js",
+        "src/libs/client-kit/utils/CKStringUtils.js",
+        "src/libs/client-kit/utils/CKUIUtils.js",
+        "src/libs/client-kit/utils/CKAnimationUtils.js",
+        "src/libs/client-kit/utils/CKNetworkUtils.js",
+        "src/libs/client-kit/utils/CKTimeUtils.js",
+        "src/libs/client-kit/utils/CKPlatformUtils.js",
+        "src/libs/client-kit/utils/CKEventUtils.js",
+        "src/libs/client-kit/utils/CKSchedulerUtils.js",
+        "src/libs/client-kit/utils/CKShaderUtils.js",
+        "src/libs/client-kit/utils/CKDateFormatUtils.js",
+
+        "src/libs/client-kit/CKGameManager.js",
+
+        "src/GameManager.js"
+    ]
+}
