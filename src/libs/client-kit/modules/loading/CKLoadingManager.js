@@ -98,20 +98,8 @@ ck.LoadingManager = ck.BaseManager.extend({
      */
     _createScene: function (id) {
         switch (id) {
-            case SceneID.LOGIN:
-                return LoginScene.create();
-            case SceneID.LOADING:
-                return LoadingScene.create();
-            case SceneID.HOME:
-                return HomeScene.create();
-            case SceneID.TUTORIAL:
-                return TutorialScene.create();
-            case SceneID.GAMEPLAY:
-                return GameplayScene.create();
-            case SceneID.AROUND_THE_WORLD:
-                return AroundTheWorldScene.create();
-            case SceneID.DUAL_WHEEL:
-                return DualWheelScene.create();
+            case SceneID.FLAPPY_BIRD:
+                return FlappyBirdScene.create();
         }
         return null;
     },
@@ -146,20 +134,17 @@ ck.LoadingManager = ck.BaseManager.extend({
         // If a scene is in a transition and another transition being called, it will cause an error
         cc.director.runScene(scene);
         callback && callback(scene);
-        gm.notice.clearToastQueue();
-        gm.system.stopBGM();
-        const bgm = this._config.getBackgroundMusic(id);
-        if (bgm) {
-            gm.system.playBGM(bgm);
-        }
+        // gm.notice.clearToastQueue();
+        // gm.system.stopBGM();
+        // const bgm = this._config.getBackgroundMusic(id);
+        // if (bgm) {
+        //     gm.system.playBGM(bgm);
+        // }
         this.setCurrentScene(null);
         if (scene.setOnEnterTransitionDidFinishCallback) {
             scene.setOnEnterTransitionDidFinishCallback(function () {
                 this.setCurrentScene(scene);
             }.bind(this));
-        }
-        if (UIUtils.hasLogLayer()){
-            scene.addChild(LogLayer.create(), 10000);
         }
         return scene;
     },
@@ -189,7 +174,7 @@ ck.LoadingManager = ck.BaseManager.extend({
             callback && callback(scene);
             const bgm = this._config.getBackgroundMusic(id);
             if (bgm) {
-                gm.system.playBGM(bgm);
+                //gm.system.playBGM(bgm);
             }
 
             if (scene.setOnEnterTransitionDidFinishCallback) {
@@ -201,8 +186,8 @@ ck.LoadingManager = ck.BaseManager.extend({
         const loaderScene = LoaderScene.create();
         loaderScene.addLayer(loaderLayer);
         cc.director.runScene(loaderScene);
-        gm.notice.clearToastQueue();
-        gm.system.stopBGM();
+        // gm.notice.clearToastQueue();
+        // gm.system.stopBGM();
     },
 
     setCurrentScene:function (scene){
@@ -210,11 +195,11 @@ ck.LoadingManager = ck.BaseManager.extend({
         if(!scene)
             return;
 
-        gm.notice.changeScreen();
-        gm.suggestPlay.scheduleIdleTime();
-        if (UIUtils.hasLogLayer()){
-            scene.addChild(LogLayer.create(), 10000);
-        }
+        // gm.notice.changeScreen();
+        // gm.suggestPlay.scheduleIdleTime();
+        // if (UIUtils.hasLogLayer()){
+        //     scene.addChild(LogLayer.create(), 10000);
+        // }
     },
 
     /**

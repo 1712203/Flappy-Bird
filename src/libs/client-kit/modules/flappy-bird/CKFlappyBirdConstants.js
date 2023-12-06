@@ -1,0 +1,4 @@
+/**
+ * @enum
+ */
+ck.FlappyBirdConstants = {};

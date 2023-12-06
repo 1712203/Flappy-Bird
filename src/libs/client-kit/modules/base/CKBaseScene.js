@@ -38,7 +38,6 @@ ck.BaseScene = cc.Scene.extend({
         cc.Scene.prototype.ctor.call(this);
         this._id = this._getID();
         this._initMainLayer();
-        this._initClaimLayer();
     },
 
     /**
@@ -60,14 +59,6 @@ ck.BaseScene = cc.Scene.extend({
     _initMainLayer: function () {
         this._layer = this._createMainLayer();
         this.addChild(this._layer);
-    },
-
-    _initClaimLayer: function () {
-        this._claimLayer = ClaimLayer.create();
-        this.addChild(this._claimLayer, 100);
-        this._claimLayer.setPositions(this._layer.getItemPositions());
-        if (cc.isFunction(this._layer.getDefaultItemPosition))
-            this._claimLayer.setDefaultPosition(this._layer.getDefaultItemPosition());
     },
 
     onExit: function () {

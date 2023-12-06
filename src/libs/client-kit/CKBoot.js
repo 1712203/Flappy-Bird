@@ -276,7 +276,7 @@ ck.setupShowAndHideEvent = function () {
 
 ck.handlerFirebaseDynamicLink = function () {
     let dynamicLink = fr.firebaseAnalytic.getDynamicLink();
-    cc.log("-- Firebase Dynamic Link:", dynamicLink);
+    //cc.log("-- Firebase Dynamic Link:", dynamicLink);
     if (dynamicLink !== "") {
         let param = StringUtils.getVarsFromUrl(dynamicLink);
         if (param.data) {

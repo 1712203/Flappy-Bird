@@ -37,12 +37,6 @@ ck.BaseManager = cc.Class.extend({
     _config: null,
 
     /**
-     * Network handler for this module
-     * @type {ck.NetworkHandler}
-     */
-    _handler: null,
-
-    /**
      * Main view for this module
      * @type {ck.BaseView}
      */
@@ -64,7 +58,6 @@ ck.BaseManager = cc.Class.extend({
     ctor: function () {
         this._initConfig();
         this._initData();
-        this._initHandler();
     },
 
     /**
@@ -129,14 +122,6 @@ ck.BaseManager = cc.Class.extend({
 
     _initData: function () {
         this._data = this._createData();
-    },
-
-    _initHandler: function () {
-        this._handler = this._createHandler();
-        if (!this._handler) return;
-        this._handler.setManager(this);
-        this._handler.setNetworkManager(gm.network);
-        gm.network.addHandler(this._handler);
     },
 
     /**
@@ -209,14 +194,6 @@ ck.BaseManager = cc.Class.extend({
      */
     getConfig: function () {
         return this._config;
-    },
-
-    /**
-     * Returns handler
-     * @returns {ck.NetworkHandler}
-     */
-    getHandler: function () {
-        return this._handler;
     },
 
     /**

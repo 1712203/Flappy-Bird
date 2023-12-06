@@ -3,7 +3,7 @@
  * @enum
  */
 ck.SceneID = {
-    MAIN: 1
+    FLAPPY_BIRD: 1
 };
 
 let SceneID = ck.SceneID;

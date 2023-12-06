@@ -403,7 +403,7 @@ cc.loader = {
         var ccPath = cc.path;
         for(var i = 0, li = jsList.length; i < li; ++i){
             // if (cc.sys.os === cc.sys.OS_WINDOWS) {
-                cc.log("LoadJS", ccPath.join(baseDir, jsList[i]));
+               //  cc.log("LoadJS", ccPath.join(baseDir, jsList[i]));
             // }
             require(ccPath.join(baseDir, jsList[i]));
         }

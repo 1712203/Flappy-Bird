@@ -93,6 +93,7 @@ _ccs.BingoButtonWidget = ccui.Widget.extend({
         this._imageShadow.setCascadeColorEnabled(true);
         this._imageShadow.setAnchorPoint(cc.p(0.5, 0.5));
         ck.UIUtils.setPositionPercent(this._imageShadow, 0.52, 0.5);
+        this._imageShadow.setVisible(false);
         this._imageShadow.setScale(1.2, 1.2);
         this._imageShadow.setOpacity(247);
         this._imageShadow.setColor(cc.color(189, 75, 153, 255));
@@ -114,7 +115,7 @@ _ccs.BingoButtonWidget = ccui.Widget.extend({
         this._layoutIcon.setCascadeOpacityEnabled(true);
         this._layoutIcon.setCascadeColorEnabled(true);
         this._layoutIcon.setAnchorPoint(cc.p(0.5, 0.5));
-        ck.UIUtils.setPositionPercent(this._layoutIcon, 0.5, 0.4909);
+        ck.UIUtils.setPositionPercent(this._layoutIcon, 0.5, 0.6545);
         let _layoutIconLayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._layoutIcon);
         _layoutIconLayoutComponent.setPositionPercentXEnabled(true);
         _layoutIconLayoutComponent.setPositionPercentX(0.5);
@@ -130,7 +131,7 @@ _ccs.BingoButtonWidget = ccui.Widget.extend({
         this._imgIcon.setCascadeOpacityEnabled(true);
         this._imgIcon.setCascadeColorEnabled(true);
         this._imgIcon.setAnchorPoint(cc.p(0.5, 0.5));
-        ck.UIUtils.setPositionPercent(this._imgIcon, 0.5, 0.5);
+        ck.UIUtils.setPositionPercent(this._imgIcon, 0.5, 0.5187);
         this._imgIcon.setScale(0.78, 0.78);
         let _imgIconLayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._imgIcon);
         _imgIconLayoutComponent.setPositionPercentXEnabled(true);
@@ -168,7 +169,6 @@ _ccs.BingoButtonWidget = ccui.Widget.extend({
         this._imgText.setCascadeColorEnabled(true);
         this._imgText.setAnchorPoint(cc.p(0.5, 0.5));
         ck.UIUtils.setPositionPercent(this._imgText, 0.5, 0.2485);
-        this._imgText.setVisible(false);
         this._imgText.setScale(0.9, 0.9);
         let _imgTextLayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._imgText);
         _imgTextLayoutComponent.setPositionPercentXEnabled(true);
@@ -184,6 +184,7 @@ _ccs.BingoButtonWidget = ccui.Widget.extend({
         this._txtText.setCascadeColorEnabled(true);
         this._txtText.setAnchorPoint(cc.p(0.5, 0.5));
         ck.UIUtils.setPositionPercent(this._txtText, 0.5, 0.2);
+        this._txtText.setVisible(false);
         this._txtText.setTextColor(cc.color(252, 151, 234, 255));
         let _txtTextLayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._txtText);
         _txtTextLayoutComponent.setPositionPercentXEnabled(true);

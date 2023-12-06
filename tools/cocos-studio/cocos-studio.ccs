@@ -508,6 +508,9 @@
             <Project Name="Glow.csd" Type="Node" />
             <Project Name="SpotLight.csd" Type="Node" />
           </Folder>
+          <Folder Name="flappy-bird">
+            <Project Name="FlappyBirdLayer.csd" Type="Layer" />
+          </Folder>
         </Folder>
         <Folder Name="_fakes">
           <Folder Name="events">
@@ -796,6 +799,34 @@
               <Image Name="title_jackpot_big.png" />
               <Image Name="title_jackpot_mini.png" />
             </Folder>
+          </Folder>
+          <Folder Name="flappy-bird">
+            <Image Name="0.png" />
+            <Image Name="1.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+            <Image Name="background-day.png" />
+            <Image Name="background-night.png" />
+            <Image Name="base.png" />
+            <Image Name="bluebird-downflap.png" />
+            <Image Name="bluebird-midflap.png" />
+            <Image Name="bluebird-upflap.png" />
+            <Image Name="gameover.png" />
+            <Image Name="message.png" />
+            <Image Name="pipe-green.png" />
+            <Image Name="pipe-red.png" />
+            <Image Name="redbird-downflap.png" />
+            <Image Name="redbird-midflap.png" />
+            <Image Name="redbird-upflap.png" />
+            <Image Name="yellowbird-downflap.png" />
+            <Image Name="yellowbird-midflap.png" />
+            <Image Name="yellowbird-upflap.png" />
           </Folder>
         </Folder>
         <Folder Name="sprite-sheets">
@@ -2617,14 +2648,14 @@
             <PlistImageFile Name="trophy_icons_Icon_26.png" Key="trophy/icons/Icon_26.png" />
             <PlistImageFile Name="trophy_icons_Icon_27.png" Key="trophy/icons/Icon_27.png" />
             <PlistImageFile Name="trophy_icons_Icon_31.png" Key="trophy/icons/Icon_31.png" />
+            <PlistImageFile Name="trophy_icons_Icon_32.png" Key="trophy/icons/Icon_32.png" />
+            <PlistImageFile Name="trophy_icons_Icon_33.png" Key="trophy/icons/Icon_33.png" />
             <PlistImageFile Name="trophy_medals_Background.png" Key="trophy/medals/Background.png" />
             <PlistImageFile Name="trophy_medals_StarBronze.png" Key="trophy/medals/StarBronze.png" />
             <PlistImageFile Name="trophy_medals_StarGold.png" Key="trophy/medals/StarGold.png" />
             <PlistImageFile Name="trophy_medals_StarGray.png" Key="trophy/medals/StarGray.png" />
             <PlistImageFile Name="trophy_medals_StarSilver.png" Key="trophy/medals/StarSilver.png" />
             <PlistImageFile Name="trophy_other_Icon.png" Key="trophy/other/Icon.png" />
-            <PlistImageFile Name="trophy_icons_Icon_32.png" Key="trophy/icons/Icon_32.png" />
-            <PlistImageFile Name="trophy_icons_Icon_33.png" Key="trophy/icons/Icon_33.png" />
           </PlistImageFolder>
           <PlistImageFolder Image="van-cat.png" PListFile="van-cat.plist" Name=".van-cat_PList.Dir">
             <PlistImageFile Name="board_choose_reward.png" Key="board_choose_reward.png" />
