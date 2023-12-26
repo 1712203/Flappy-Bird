@@ -26,8 +26,8 @@ ck.FlappyBirdChimney = _ccs.FlappyBirdChimney.extend({
         this._circleBodies = FlappyBirdObjectPhysicCircleBodyConfig.getBodyConfigByObjectName("chimney");
         this._circleBodies.forEach(function (circleBody) {
             if (circleBody) {
-                //circleBody.setParent(this._chimney);
-                //circleBody.updateFactor(cc.pFromSize(this._chimney), this._chimney.getScaleX() * 0.5);
+                circleBody.setParent(this._chimney);
+                circleBody.updateFactor(cc.pFromSize(this._chimney), this._chimney.getScaleX() * 0.5);
             }
         }.bind(this))
         this.drawPhysicCircleBody();

@@ -9,6 +9,9 @@ let ObjectCircleBody = cc.Class.extend({
     /** @type {cc.Point} */
     pos: null,
 
+    /** @type {cc.Point} */
+    factorPos: cc.p(0, 0),
+
     /** @type {Number} */
     radius: 0,
 
@@ -30,7 +33,7 @@ let ObjectCircleBody = cc.Class.extend({
      * */
     updateFactor: function (point, factor) {
         var dXY = cc.pMult(point, factor);
-        this.pos = cc.pSub(this.pos, dXY);
+        this.factorPos = cc.pSub(this.pos, dXY);
     },
 
     /** @param {ccui.Widget} parent */
