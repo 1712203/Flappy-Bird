@@ -7,494 +7,20 @@
           <Folder Name="_anim">
             <Project Name="Anim.csd" Type="Layer" />
           </Folder>
-          <Folder Name="bingo">
-            <Project Name="BingoButtonWidget.csd" Type="Node" />
-            <Project Name="BingoEffectLoseWidget.csd" Type="Node" />
-            <Project Name="BingoEffectWinWidget.csd" Type="Node" />
-            <Project Name="BingoLayer.csd" Type="Layer" />
-            <Project Name="BingoNumberWidget.csd" Type="Node" />
-            <Project Name="BingoPlayerWidget.csd" Type="Node" />
-            <Project Name="BingoTicketWidget.csd" Type="Node" />
-            <Project Name="BingoTimerWidget.csd" Type="Node" />
-            <Project Name="BingoUserWidget.csd" Type="Node" />
-          </Folder>
           <Folder Name="cheat">
             <Project Name="CheatMenu.csd" Type="Layer" />
           </Folder>
-          <Folder Name="events">
-            <Folder Name="around-the-world">
-              <Folder Name="lands">
-                <Project Name="Amsterdam.csd" Type="Node" />
-                <Project Name="AroundTheWorldLandBehavior.csd" Type="Node" />
-                <Project Name="Beijing.csd" Type="Node" />
-                <Project Name="HaNoi.csd" Type="Node" />
-                <Project Name="London.csd" Type="Node" />
-                <Project Name="Moscow.csd" Type="Node" />
-                <Project Name="NewDelhi.csd" Type="Node" />
-                <Project Name="NewYork.csd" Type="Node" />
-                <Project Name="Otakoy.csd" Type="Node" />
-                <Project Name="Paris.csd" Type="Node" />
-                <Project Name="Rio.csd" Type="Node" />
-                <Project Name="Singapore.csd" Type="Node" />
-                <Project Name="Taipei.csd" Type="Node" />
-                <Project Name="Tokyo.csd" Type="Node" />
-              </Folder>
-              <Project Name="AroundTheWorldAirPlane.csd" Type="Node" />
-              <Project Name="AroundTheWorldBanner.csd" Type="Node" />
-              <Project Name="AroundTheWorldGuide.csd" Type="Layer" />
-              <Project Name="AroundTheWorldIcon.csd" Type="Node" />
-              <Project Name="AroundTheWorldLayer.csd" Type="Layer" />
-              <Project Name="AroundTheWorldNotEnoughTokenDialog.csd" Type="Node" />
-              <Project Name="AroundTheWorldRewardBox.csd" Type="Node" />
-              <Project Name="AroundTheWorldRewardWidget.csd" Type="Node" />
-              <Project Name="AroundTheWorldSelectRewardPopup.csd" Type="Node" />
-            </Folder>
-            <Folder Name="build-up-pay">
-              <Project Name="BuildUpPayEventIcon.csd" Type="Node" />
-              <Project Name="BuildUpPayItemWidget.csd" Type="Node" />
-              <Project Name="BuildUpPayMilestoneWidget.csd" Type="Node" />
-              <Project Name="BuildUpPayPopup.csd" Type="Node" />
-            </Folder>
-            <Folder Name="collector">
-              <Project Name="EventCollectorAlertPopup.csd" Type="Node" />
-              <Project Name="EventCollectorBanner.csd" Type="Node" />
-              <Project Name="EventCollectorGiftBag.csd" Type="Node" />
-              <Project Name="EventCollectorGuidePopup.csd" Type="Node" />
-              <Project Name="EventCollectorIcon.csd" Type="Node" />
-              <Project Name="EventCollectorPopup.csd" Type="Node" />
-              <Project Name="EventCollectorRewardGroupWidget.csd" Type="Node" />
-              <Project Name="EventCollectorSpecialRewardPopup.csd" Type="Node" />
-              <Project Name="EventCollectorUserInfoPopup.csd" Type="Node" />
-              <Project Name="EventCollectorVerifyInfoPopup.csd" Type="Node" />
-            </Folder>
-            <Folder Name="continuous-purchase">
-              <Project Name="ContinuousPurchaseIcon.csd" Type="Node" />
-              <Project Name="ContinuousPurchaseItemWidget.csd" Type="Node" />
-              <Project Name="ContinuousPurchaseMilestone.csd" Type="Node" />
-              <Project Name="ContinuousPurchaseMilestoneSpecial.csd" Type="Node" />
-              <Project Name="ContinuousPurchasePopup.csd" Type="Node" />
-            </Folder>
-            <Folder Name="dragon-knight">
-              <Project Name="DragonKnightBanner.csd" Type="Node" />
-              <Project Name="DragonKnightGuide.csd" Type="Layer" />
-              <Project Name="DragonKnightIcon.csd" Type="Node" />
-              <Project Name="DragonKnightMilestoneWidget.csd" Type="Node" />
-              <Project Name="DragonKnightNotEnoughTokenDialog.csd" Type="Node" />
-              <Project Name="DragonKnightPopup.csd" Type="Node" />
-            </Folder>
-            <Folder Name="dual-wheel">
-              <Project Name="DualWheelAlertDialog.csd" Type="Node" />
-              <Project Name="DualWheelBanner.csd" Type="Node" />
-              <Project Name="DualWheelEventIcon.csd" Type="Node" />
-              <Project Name="DualWheelItemWidget.csd" Type="Node" />
-              <Project Name="DualWheelLayer.csd" Type="Layer" />
-              <Project Name="DualWheelMultipleWidget.csd" Type="Node" />
-              <Project Name="DualWheelTutorialPopup.csd" Type="Layer" />
-              <Project Name="WheelItem.csd" Type="Node" />
-              <Project Name="WheelX.csd" Type="Node" />
-              <Project Name="WheelX2Layer.csd" Type="Layer" />
-              <Project Name="WheelXChoice.csd" Type="Node" />
-              <Project Name="WheelXChoicesPopup.csd" Type="Node" />
-            </Folder>
-            <Folder Name="exp_pass">
-              <Project Name="ExpPassChoosePacks.csd" Type="Node" />
-              <Project Name="ExpPassChoosePacksType2.csd" Type="Node" />
-              <Project Name="ExpPassExpBar.csd" Type="Node" />
-              <Project Name="ExpPassGift.csd" Type="Node" />
-              <Project Name="ExpPassIcon.csd" Type="Node" />
-              <Project Name="ExpPassMilestone.csd" Type="Node" />
-              <Project Name="ExpPassPack.csd" Type="Node" />
-              <Project Name="ExpPassPopupBuyPass.csd" Type="Layer" />
-              <Project Name="ExpPassPopupReward.csd" Type="Layer" />
-              <Project Name="ExpPassPopupUnlocked.csd" Type="Layer" />
-              <Project Name="ExpPassScene.csd" Type="Scene" />
-              <Project Name="ExpPassToken.csd" Type="Node" />
-              <Project Name="ExpPassTut.csd" Type="Layer" />
-            </Folder>
-            <Folder Name="happy-shark">
-              <Project Name="HappySharkAlertDialog.csd" Type="Node" />
-              <Project Name="HappySharkBanner.csd" Type="Node" />
-              <Project Name="HappySharkBoxWidget.csd" Type="Node" />
-              <Project Name="HappySharkChest.csd" Type="Node" />
-              <Project Name="HappySharkEventIcon.csd" Type="Node" />
-              <Project Name="HappySharkLayer.csd" Type="Layer" />
-              <Project Name="HappySharkListChest.csd" Type="Node" />
-              <Project Name="HappySharkNPCWidget.csd" Type="Node" />
-              <Project Name="HappySharkProgressMilestoneWidget.csd" Type="Node" />
-            </Folder>
-            <Folder Name="new-comer">
-              <Project Name="NewComerEventIcon.csd" Type="Node" />
-              <Project Name="NewComerPopup.csd" Type="Node" />
-              <Project Name="NewComerQuestRewardWidget.csd" Type="Node" />
-              <Project Name="NewComerQuestWidget.csd" Type="Node" />
-            </Folder>
-            <Folder Name="PlayToDonate">
-              <Project Name="PlayToDonateIcon.csd" Type="Node" />
-              <Project Name="PlayToDonatePopup.csd" Type="Node" />
-            </Folder>
-            <Folder Name="van-cat">
-              <Project Name="Event15ButtonPay.csd" Type="Node" />
-              <Project Name="Event15Channels.csd" Type="Node" />
-              <Project Name="Event15Icon.csd" Type="Node" />
-              <Project Name="Event15MilestonePopup.csd" Type="Layer" />
-              <Project Name="Event15MilestoneSlot.csd" Type="Node" />
-              <Project Name="Event15NodeGift.csd" Type="Node" />
-              <Project Name="Event15NodePay.csd" Type="Node" />
-              <Project Name="Event15Popup.csd" Type="Layer" />
-              <Project Name="Event15PopupChannels.csd" Type="Layer" />
-              <Project Name="Event15RewardWidget.csd" Type="Node" />
-              <Project Name="Event15Tutorial.csd" Type="Layer" />
-            </Folder>
-          </Folder>
-          <Folder Name="free">
-            <Folder Name="login30">
-              <Project Name="DailyRewardItemWidgetLogin30Final.csd" Type="Node" />
-              <Project Name="DailyRewardItemWidgetLogin30Normal.csd" Type="Node" />
-              <Project Name="DailyRewardItemWidgetLogin30Special.csd" Type="Node" />
-              <Project Name="DailyRewardMissedLastMonthPopup.csd" Type="Node" />
-              <Project Name="DailyRewardPopupLogin30.csd" Type="Node" />
-            </Folder>
-            <Project Name="ComebackRewardPopup.csd" Type="Node" />
-            <Project Name="DailyGiftWidget.csd" Type="Node" />
-            <Project Name="DailyGiftWidget2.csd" Type="Node" />
-            <Project Name="DailyRewardItemWidgetNormal.csd" Type="Node" />
-            <Project Name="DailyRewardItemWidgetSpecial.csd" Type="Node" />
-            <Project Name="DailyRewardPopup.csd" Type="Node" />
-            <Project Name="FreeGiftIcon.csd" Type="Node" />
-            <Project Name="GiftCodePopup.csd" Type="Node" />
-            <Project Name="GiftCodeSubmitButton.csd" Type="Node" />
-            <Project Name="SupportRewardPopup.csd" Type="Node" />
-            <Project Name="TimeRewardWidget.csd" Type="Node" />
-          </Folder>
-          <Folder Name="friend">
-            <Folder Name="invite-friend">
-              <Project Name="InviteFriendPopup.csd" Type="Layer" />
-            </Folder>
-            <Project Name="FriendDetailPopup.csd" Type="Node" />
-            <Project Name="FriendIcon.csd" Type="Node" />
-            <Project Name="FriendInteractModalWidget.csd" Type="Node" />
-            <Project Name="FriendInvitationPopup.csd" Type="Node" />
-            <Project Name="FriendInvitationWidget.csd" Type="Node" />
-            <Project Name="FriendPopup.csd" Type="Node" />
-            <Project Name="FriendSearchWidget.csd" Type="Node" />
-            <Project Name="FriendWidget.csd" Type="Node" />
-          </Folder>
-          <Folder Name="get-gold-suggest">
-            <Project Name="GetGoldSuggestItem.csd" Type="Node" />
-            <Project Name="GetGoldSuggestPopup.csd" Type="Node" />
-          </Folder>
-          <Folder Name="gourd-crab">
-            <Project Name="GourdCrabButtonWidget.csd" Type="Node" />
-            <Project Name="GourdCrabDoorWidget.csd" Type="Node" />
-            <Project Name="GourdCrabLayer.csd" Type="Layer" />
-            <Project Name="GourdCrabNPCWidget.csd" Type="Node" />
-            <Project Name="GourdCrabPlayerWidget.csd" Type="Node" />
-            <Project Name="GourdCrabResultWidget.csd" Type="Node" />
-            <Project Name="GourdCrabTimerWidget.csd" Type="Node" />
-            <Project Name="GourdCrabUserWidget.csd" Type="Node" />
-          </Folder>
-          <Folder Name="home">
-            <Project Name="BigBetButtonWidget.csd" Type="Node" />
-            <Project Name="HomeBackground.csd" Type="Layer" />
-            <Project Name="HomeLayer.csd" Type="Layer" />
-          </Folder>
-          <Folder Name="interact">
-            <Folder Name="chat">
-              <Folder Name="emoji">
-                <Project Name="EmoCrazy.csd" Type="Node" />
-                <Project Name="EmoCry.csd" Type="Node" />
-                <Project Name="EmoDizzy.csd" Type="Node" />
-                <Project Name="EmoHi.csd" Type="Node" />
-                <Project Name="EmoSurprise.csd" Type="Node" />
-                <Project Name="EmoWin.csd" Type="Node" />
-              </Folder>
-              <Project Name="ChatBubbleWidget.csd" Type="Node" />
-              <Project Name="ChatPopup.csd" Type="Node" />
-              <Project Name="ChatTabLayout.csd" Type="Node" />
-              <Project Name="EmojiTabLayout.csd" Type="Node" />
-              <Project Name="EmojiWidget.csd" Type="Node" />
-              <Project Name="SendTrophyTabLayout.csd" Type="Node" />
-              <Project Name="SuggestedMessageWidget.csd" Type="Node" />
-            </Folder>
-            <Folder Name="interact">
-              <Project Name="InteractItemWidget.csd" Type="Node" />
-              <Project Name="InteractPopup.csd" Type="Node" />
-            </Folder>
-          </Folder>
-          <Folder Name="item">
-            <Project Name="ItemIcon.csd" Type="Node" />
-            <Project Name="ItemWidget.csd" Type="Node" />
-            <Project Name="ItemWidgetLarge.csd" Type="Node" />
-            <Project Name="RewardPopup.csd" Type="Node" />
-            <Project Name="RewardPopup02.csd" Type="Layer" />
-            <Project Name="SpecialRewardPopup.csd" Type="Node" />
-          </Folder>
-          <Folder Name="item-factor">
-            <Project Name="ItemFactorTip.csd" Type="Node" />
-          </Folder>
-          <Folder Name="jackpot">
-            <Project Name="JackpotIcon.csd" Type="Node" />
-            <Project Name="JackpotPopup.csd" Type="Layer" />
-            <Project Name="JackpotRewardPopupNormal.csd" Type="Node" />
-            <Project Name="JackpotRewardPopupSpecial.csd" Type="Node" />
-            <Project Name="JackpotSpinButton.csd" Type="Node" />
-            <Project Name="JackpotTabSelectorItem.csd" Type="Node" />
-          </Folder>
-          <Folder Name="league">
-            <Project Name="LeagueEmptyPopup.csd" Type="Node" />
-            <Project Name="LeagueGuide.csd" Type="Layer" />
-            <Project Name="LeagueIcon.csd" Type="Node" />
-            <Project Name="LeaguePlayerDetailPopup.csd" Type="Node" />
-            <Project Name="LeaguePlayerWidget.csd" Type="Node" />
-            <Project Name="LeaguePopup.csd" Type="Node" />
-            <Project Name="LeagueResultPopup.csd" Type="Node" />
-            <Project Name="LeagueRewardPopup.csd" Type="Node" />
-            <Project Name="LeagueRewardWidget.csd" Type="Node" />
+          <Folder Name="flappy-bird">
+            <Project Name="FlappyBirdCharacter.csd" Type="Node" />
+            <Project Name="FlappyBirdLayer.csd" Type="Layer" />
+            <Project Name="FlappyBirdChimney.csd" Type="Node" />
+            <Project Name="FlappyBirdChimneyLayer.csd" Type="Layer" />
           </Folder>
           <Folder Name="loading">
             <Project Name="LoaderLayer.csd" Type="Layer" />
           </Folder>
-          <Folder Name="localize">
-            <Project Name="LanguagePopup.csd" Type="Node" />
-            <Project Name="LanguageWidget.csd" Type="Node" />
-          </Folder>
           <Folder Name="login">
             <Project Name="LoginLayer.csd" Type="Layer" />
-          </Folder>
-          <Folder Name="mailbox">
-            <Folder Name="mail">
-              <Project Name="MailDetailPopup.csd" Type="Node" />
-              <Project Name="MailItemNode.csd" Type="Node" />
-              <Project Name="MailTabLayout.csd" Type="Node" />
-            </Folder>
-            <Folder Name="news">
-              <Project Name="NewsItemNode.csd" Type="Node" />
-              <Project Name="NewsTabLayout.csd" Type="Node" />
-            </Folder>
-            <Project Name="MailboxIcon.csd" Type="Node" />
-            <Project Name="MailboxPopup.csd" Type="Node" />
-            <Project Name="SendMessagePopup.csd" Type="Node" />
-          </Folder>
-          <Folder Name="minigames">
-            <Folder Name="card-flip">
-              <Project Name="CardFlipButtonWidget.csd" Type="Node" />
-              <Project Name="CardFlipEffectLose.csd" Type="Node" />
-              <Project Name="CardFlipEffectWin.csd" Type="Node" />
-              <Project Name="CardFlipLayer.csd" Type="Layer" />
-              <Project Name="GuiCardFlipPlayer.csd" Type="Layer" />
-              <Project Name="GuiCardFlipTimer.csd" Type="Layer" />
-              <Project Name="GuiCardFlipUser.csd" Type="Layer" />
-            </Folder>
-            <Folder Name="poker">
-              <Project Name="PokerButtonWidget.csd" Type="Node" />
-              <Project Name="PokerCard.csd" Type="Node" />
-              <Project Name="PokerCardGuide.csd" Type="Node" />
-              <Project Name="PokerHandRankingsTab.csd" Type="Node" />
-              <Project Name="PokerHelpLayer.csd" Type="Layer" />
-              <Project Name="PokerLayer.csd" Type="Layer" />
-              <Project Name="PokerResultLayer.csd" Type="Layer" />
-              <Project Name="PokerRuleTab.csd" Type="Node" />
-            </Folder>
-            <Folder Name="slot-three">
-              <Project Name="SlotThreeButtonWidget.csd" Type="Node" />
-              <Project Name="SlotThreeLayer.csd" Type="Layer" />
-              <Project Name="SlotThreeShip.csd" Type="Node" />
-              <Project Name="SlotThreeSlot.csd" Type="Node" />
-              <Project Name="SlotThreeTutorialPopup.csd" Type="Layer" />
-            </Folder>
-            <Project Name="MiniGameButtonWidget.csd" Type="Node" />
-            <Project Name="MinigameItemLayer.csd" Type="Layer" />
-            <Project Name="OtherMiniGamesWidget.csd" Type="Node" />
-          </Folder>
-          <Folder Name="notice">
-            <Project Name="AlertDialog.csd" Type="Node" />
-            <Project Name="BroadcastWidget.csd" Type="Node" />
-            <Project Name="EnterSomethingPopup.csd" Type="Node" />
-            <Project Name="LoadingSpinner.csd" Type="Layer" />
-            <Project Name="Toast.csd" Type="Node" />
-            <Project Name="ToastWithIcon.csd" Type="Node" />
-            <Project Name="YesNoDialog.csd" Type="Node" />
-          </Folder>
-          <Folder Name="payment">
-            <Folder Name="offers">
-              <Project Name="MusicalTurkeyOfferIcon.csd" Type="Node" />
-              <Project Name="MusicalTurkeyOfferPopup.csd" Type="Node" />
-              <Project Name="MysteriousVanCatOfferIcon.csd" Type="Node" />
-              <Project Name="MysteriousVanCatOfferPopup.csd" Type="Node" />
-              <Project Name="OfferItemWidget.csd" Type="Node" />
-              <Project Name="PrettyCappadociaOfferIcon.csd" Type="Node" />
-              <Project Name="PrettyCappadociaOfferPopup.csd" Type="Node" />
-              <Project Name="RamadanGiftOfferIcon.csd" Type="Node" />
-              <Project Name="RamadanGiftOfferPopup.csd" Type="Node" />
-              <Project Name="TulipFestivalOfferIcon.csd" Type="Node" />
-              <Project Name="TulipFestivalOfferPopup.csd" Type="Node" />
-              <Project Name="TurkeyIceCreamOfferIcon.csd" Type="Node" />
-              <Project Name="TurkeyIceCreamOfferPopup.csd" Type="Node" />
-              <Project Name="TurkishLampPackOfferIcon.csd" Type="Node" />
-              <Project Name="TurkishLampPackOfferPopup.csd" Type="Node" />
-            </Folder>
-            <Project Name="PaymentButtonPay.csd" Type="Node" />
-            <Project Name="PaymentChannels.csd" Type="Node" />
-            <Project Name="PaymentCPopup.csd" Type="Node" />
-            <Project Name="PaymentEventPopup.csd" Type="Layer" />
-            <Project Name="PaymentEventSuccessPopup.csd" Type="Layer" />
-            <Project Name="PaymentInputPopup.csd" Type="Node" />
-            <Project Name="PaymentNodePay.csd" Type="Node" />
-            <Project Name="PaymentPack.csd" Type="Node" />
-            <Project Name="PaymentPopup.csd" Type="Layer" />
-            <Project Name="PaymentPopupChannels.csd" Type="Layer" />
-            <Project Name="PaymentSuccessItemWidget.csd" Type="Node" />
-            <Project Name="PaymentSuccessPopup.csd" Type="Layer" />
-            <Project Name="PaymentTabSelectorItem.csd" Type="Node" />
-            <Project Name="ShopEventIcon.csd" Type="Node" />
-          </Folder>
-          <Folder Name="pinball">
-            <Project Name="PinballButtonWidget.csd" Type="Node" />
-            <Project Name="PinballLayer.csd" Type="Scene" />
-            <Project Name="PinballRewardWidget.csd" Type="Node" />
-            <Project Name="PinballTable.csd" Type="Node" />
-          </Folder>
-          <Folder Name="pisti">
-            <Project Name="AccumulateExpWidget.csd" Type="Node" />
-            <Project Name="AccumulateTokenWidget.csd" Type="Node" />
-            <Project Name="BetChannelWidget.csd" Type="Node" />
-            <Project Name="EffectEye.csd" Type="Node" />
-            <Project Name="EffectEyeCounter.csd" Type="Node" />
-            <Project Name="EffectEyeCounterTrigger.csd" Type="Node" />
-            <Project Name="EffectJUp.csd" Type="Node" />
-            <Project Name="EffectXPX2.csd" Type="Node" />
-            <Project Name="InventoryPanel.csd" Type="Node" />
-            <Project Name="ItemTip.csd" Type="Node" />
-            <Project Name="ItemTutorialGiftPopup.csd" Type="Node" />
-            <Project Name="ItemTutorialGuidePopup.csd" Type="Node" />
-            <Project Name="NotEnoughCoinToPlayPopup.csd" Type="Node" />
-            <Project Name="PistiChatBubbleWidget.csd" Type="Node" />
-            <Project Name="PistiPlayerRenderer.csd" Type="Node" />
-            <Project Name="PistiRenderer.csd" Type="Layer" />
-            <Project Name="PistiResultLayer.csd" Type="Layer" />
-            <Project Name="PistiSummaryItemWidget.csd" Type="Node" />
-            <Project Name="PistiSummaryLayer.csd" Type="Layer" />
-            <Project Name="PistiSummaryStatItem.csd" Type="Node" />
-            <Project Name="progressExp.csd" Type="Node" />
-            <Project Name="SkillIcon.csd" Type="Node" />
-            <Project Name="TextAFK.csd" Type="Node" />
-            <Project Name="TextFindingOpponent.csd" Type="Node" />
-          </Folder>
-          <Folder Name="profile">
-            <Folder Name="tabs">
-              <Folder Name="card-collection">
-                <Project Name="CardCollectionCardLargePopup.csd" Type="Node" />
-                <Project Name="CardCollectionCardLargeWidget.csd" Type="Node" />
-                <Project Name="CardCollectionCardSetLayout.csd" Type="Node" />
-                <Project Name="CardCollectionCardSetPopup.csd" Type="Node" />
-                <Project Name="CardCollectionCardSetWidget.csd" Type="Node" />
-                <Project Name="CardCollectionCardWidget.csd" Type="Node" />
-                <Project Name="CardCollectionGuide.csd" Type="Layer" />
-                <Project Name="CardCollectionJokerCardButton.csd" Type="Node" />
-                <Project Name="CardCollectionJokerCardWidget.csd" Type="Node" />
-                <Project Name="CardCollectionLibraryLayout.csd" Type="Node" />
-                <Project Name="CardCollectionRewardPopup.csd" Type="Node" />
-                <Project Name="CardCollectionTabLayout.csd" Type="Node" />
-                <Project Name="CardCollectionTabLayoutTabSelectorItem.csd" Type="Node" />
-              </Folder>
-              <Folder Name="profile">
-                <Project Name="ProfileTabLayout.csd" Type="Node" />
-                <Project Name="RankingMedalWidget.csd" Type="Node" />
-              </Folder>
-              <Folder Name="skin">
-                <Project Name="AvatarSkinWidget.csd" Type="Node" />
-                <Project Name="AvatarSkinWidgetBig.csd" Type="Node" />
-                <Project Name="CardSkinWidget.csd" Type="Node" />
-                <Project Name="CardSkinWidgetBig.csd" Type="Node" />
-                <Project Name="SkinTabLayout.csd" Type="Node" />
-                <Project Name="SkinTabLayoutTabSelectorItem.csd" Type="Node" />
-                <Project Name="SkinWidgetLayout.csd" Type="Node" />
-                <Project Name="TableSkinWidget.csd" Type="Node" />
-                <Project Name="TableSkinWidgetBig.csd" Type="Node" />
-              </Folder>
-              <Folder Name="trophy">
-                <Project Name="TrophyAlbumCloseWidget.csd" Type="Node" />
-                <Project Name="TrophyAlbumOpenWidget.csd" Type="Node" />
-                <Project Name="TrophyDetailWidget.csd" Type="Node" />
-                <Project Name="TrophyItemWidget.csd" Type="Node" />
-                <Project Name="TrophyReceiveTrophyPopup.csd" Type="Node" />
-                <Project Name="TrophySelectAlbumPopup.csd" Type="Node" />
-                <Project Name="TrophyTabLayout.csd" Type="Node" />
-                <Project Name="TrophyTopWidget.csd" Type="Node" />
-              </Folder>
-              <Project Name="ProfilePopup.csd" Type="Layer" />
-              <Project Name="ProfilePopupTabSelectorItem.csd" Type="Node" />
-            </Folder>
-            <Project Name="LevelUpWidget.csd" Type="Node" />
-            <Project Name="RatingPopup.csd" Type="Layer" />
-            <Project Name="RefundBanPopup.csd" Type="Node" />
-            <Project Name="UnlockedFeatureIcon.csd" Type="Node" />
-            <Project Name="UnlockedFeaturesPopup.csd" Type="Node" />
-          </Folder>
-          <Folder Name="quest">
-            <Project Name="QuestIcon.csd" Type="Node" />
-            <Project Name="QuestPopup.csd" Type="Node" />
-            <Project Name="QuestRewardWidget.csd" Type="Node" />
-            <Project Name="QuestWidget.csd" Type="Node" />
-          </Folder>
-          <Folder Name="ranking">
-            <Project Name="RankingEmptyPopup.csd" Type="Node" />
-            <Project Name="RankingGuide.csd" Type="Layer" />
-            <Project Name="RankingIcon.csd" Type="Node" />
-            <Project Name="RankingPlayerRewardWidget.csd" Type="Node" />
-            <Project Name="RankingPlayerWidget.csd" Type="Node" />
-            <Project Name="RankingPopup.csd" Type="Node" />
-            <Project Name="RankingRewardPopup.csd" Type="Node" />
-            <Project Name="RankingRewardWidget.csd" Type="Node" />
-            <Project Name="RankingUpEffect.csd" Type="Node" />
-            <Project Name="RankingUpWidget.csd" Type="Node" />
-          </Folder>
-          <Folder Name="share-image">
-            <Folder Name="frames">
-              <Folder Name="ramadan">
-                <Project Name="RamadanShareImageFrame1.csd" Type="Layer" />
-                <Project Name="RamadanShareImageFrame2.csd" Type="Layer" />
-                <Project Name="RamadanShareImageFrame3.csd" Type="Layer" />
-                <Project Name="RamadanShareImageFrame4.csd" Type="Layer" />
-                <Project Name="RamadanShareImageFrame5.csd" Type="Layer" />
-                <Project Name="RamadanShareImageFrame6.csd" Type="Layer" />
-              </Folder>
-              <Project Name="ShareImageFrame1.csd" Type="Layer" />
-              <Project Name="ShareImageFrame2.csd" Type="Layer" />
-              <Project Name="ShareImageFrame3.csd" Type="Layer" />
-              <Project Name="ShareImageFrame4.csd" Type="Layer" />
-              <Project Name="ShareImageFrame5.csd" Type="Layer" />
-              <Project Name="ShareImageFrame6.csd" Type="Layer" />
-            </Folder>
-            <Project Name="ShareImageRewardItemWidget.csd" Type="Node" />
-            <Project Name="ShareImageRewardWidget.csd" Type="Node" />
-          </Folder>
-          <Folder Name="shop">
-            <Project Name="ShopIcon.csd" Type="Node" />
-            <Project Name="ShopPackInfoPopup.csd" Type="Node" />
-            <Project Name="ShopPackWidget.csd" Type="Node" />
-            <Project Name="ShopPopup.csd" Type="Layer" />
-            <Project Name="ShopTabSelectorItem.csd" Type="Node" />
-          </Folder>
-          <Folder Name="suggest-play">
-            <Project Name="SuggestChooseBetPopup.csd" Type="Node" />
-            <Project Name="SuggestPlayPopup.csd" Type="Node" />
-          </Folder>
-          <Folder Name="survey">
-            <Project Name="surveyOptions.csd" Type="Node" />
-            <Project Name="surveyPopup.csd" Type="Node" />
-            <Project Name="surveyQuestions.csd" Type="Node" />
-          </Folder>
-          <Folder Name="system">
-            <Project Name="SettingPopup.csd" Type="Node" />
-            <Project Name="SettingSwitchButton.csd" Type="Node" />
-            <Project Name="UpdatePopup.csd" Type="Node" />
-          </Folder>
-          <Folder Name="tutorial">
-            <Project Name="Hand.csd" Type="Node" />
-            <Project Name="TutorialBigBetPopup.csd" Type="Node" />
-            <Project Name="TutorialGuideBoard.csd" Type="Node" />
-            <Project Name="TutorialPopup.csd" Type="Node" />
           </Folder>
           <Folder Name="ui">
             <Project Name="ChestWidget.csd" Type="Node" />
@@ -507,9 +33,6 @@
             <Project Name="Blink.csd" Type="Node" />
             <Project Name="Glow.csd" Type="Node" />
             <Project Name="SpotLight.csd" Type="Node" />
-          </Folder>
-          <Folder Name="flappy-bird">
-            <Project Name="FlappyBirdLayer.csd" Type="Layer" />
           </Folder>
         </Folder>
         <Folder Name="_fakes">
@@ -711,6 +234,34 @@
           <Folder Name="containers">
             <Image Name="ContainerHighlight.png" />
           </Folder>
+          <Folder Name="flappy-bird">
+            <Image Name="0.png" />
+            <Image Name="1.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+            <Image Name="background-day.png" />
+            <Image Name="background-night.png" />
+            <Image Name="base.png" />
+            <Image Name="bluebird-downflap.png" />
+            <Image Name="bluebird-midflap.png" />
+            <Image Name="bluebird-upflap.png" />
+            <Image Name="gameover.png" />
+            <Image Name="message.png" />
+            <Image Name="pipe-green.png" />
+            <Image Name="pipe-red.png" />
+            <Image Name="redbird-downflap.png" />
+            <Image Name="redbird-midflap.png" />
+            <Image Name="redbird-upflap.png" />
+            <Image Name="yellowbird-downflap.png" />
+            <Image Name="yellowbird-midflap.png" />
+            <Image Name="yellowbird-upflap.png" />
+          </Folder>
           <Folder Name="icons">
             <Folder Name="color">
               <Folder Name="coins">
@@ -799,34 +350,6 @@
               <Image Name="title_jackpot_big.png" />
               <Image Name="title_jackpot_mini.png" />
             </Folder>
-          </Folder>
-          <Folder Name="flappy-bird">
-            <Image Name="0.png" />
-            <Image Name="1.png" />
-            <Image Name="2.png" />
-            <Image Name="3.png" />
-            <Image Name="4.png" />
-            <Image Name="5.png" />
-            <Image Name="6.png" />
-            <Image Name="7.png" />
-            <Image Name="8.png" />
-            <Image Name="9.png" />
-            <Image Name="background-day.png" />
-            <Image Name="background-night.png" />
-            <Image Name="base.png" />
-            <Image Name="bluebird-downflap.png" />
-            <Image Name="bluebird-midflap.png" />
-            <Image Name="bluebird-upflap.png" />
-            <Image Name="gameover.png" />
-            <Image Name="message.png" />
-            <Image Name="pipe-green.png" />
-            <Image Name="pipe-red.png" />
-            <Image Name="redbird-downflap.png" />
-            <Image Name="redbird-midflap.png" />
-            <Image Name="redbird-upflap.png" />
-            <Image Name="yellowbird-downflap.png" />
-            <Image Name="yellowbird-midflap.png" />
-            <Image Name="yellowbird-upflap.png" />
           </Folder>
         </Folder>
         <Folder Name="sprite-sheets">

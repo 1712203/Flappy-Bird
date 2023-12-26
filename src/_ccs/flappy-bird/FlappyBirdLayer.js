@@ -19,8 +19,10 @@ _ccs.FlappyBirdLayer = cc.Layer.extend({
     _layoutBgr: null,
     /** @type {ccui.ImageView} */
     _imgBgr: null,
-    /** @type {cc.Node} */
-    _nodeLand: null,
+    /** @type {FlappyBirdCharacter} */
+    _bird: null,
+    /** @type {ccui.Layout} */
+    _layoutLand: null,
     /** @type {cc.Sprite} */
     _spriteLand1: null,
     /** @type {cc.Sprite} */
@@ -118,23 +120,44 @@ _ccs.FlappyBirdLayer = cc.Layer.extend({
         ck.UIUtils.setSizePercent(this._imgBgr, 1, 1);
         this._imgBgr.setTouchEnabled(false);
 
-        ///// # _nodeLand
-        this._nodeLand = new cc.Node();
-        this._nodeLand.setName("_nodeLand");
-        this._imgBgr.addChild(this._nodeLand);
-        this._nodeLand.setCascadeOpacityEnabled(true);
-        this._nodeLand.setCascadeColorEnabled(true);
-        ck.UIUtils.setPositionPercent(this._nodeLand, 1, 0);
-        let _nodeLandLayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._nodeLand);
+        ///// # _bird
+        this._bird = new FlappyBirdCharacter();
+        this._bird.setName("_bird");
+        this._imgBgr.addChild(this._bird);
+        this._bird.setCascadeOpacityEnabled(true);
+        this._bird.setCascadeColorEnabled(true);
+        ck.UIUtils.setPositionPercent(this._bird, 0.5, 0.7);
+        this._bird.setScale(1.5, 1.5);
+        let _birdLayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._bird);
+        _birdLayoutComponent.setPositionPercentXEnabled(true);
+        _birdLayoutComponent.setPositionPercentX(0.5);
+        _birdLayoutComponent.setPositionPercentYEnabled(true);
+        _birdLayoutComponent.setPositionPercentY(0.7);
+
+        ///// # _layoutLand
+        this._layoutLand = new ccui.Layout();
+        this._layoutLand.setName("_layoutLand");
+        this._imgBgr.addChild(this._layoutLand);
+        this._layoutLand.setCascadeOpacityEnabled(true);
+        this._layoutLand.setCascadeColorEnabled(true);
+        ck.UIUtils.setPositionPercent(this._layoutLand, -0.475, 0);
+        let _layoutLandLayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._layoutLand);
+        this._layoutLand.setTouchEnabled(true);
+        this._layoutLand.setUnifySizeEnabled(false);
+        this._layoutLand.ignoreContentAdaptWithSize(false);
+        this._layoutLand.setContentSize(cc.size(1280, 217.0563));
+        this._layoutLand.setBackGroundColorType(1);
+        this._layoutLand.setBackGroundColor(cc.color(0, 0, 0, 255));
+        this._layoutLand.setBackGroundColorOpacity(102);
 
         ///// # _spriteLand1
         this._spriteLand1 = new cc.Sprite();
         this._spriteLand1.setName("_spriteLand1");
-        this._nodeLand.addChild(this._spriteLand1);
+        this._layoutLand.addChild(this._spriteLand1);
         this._spriteLand1.setCascadeOpacityEnabled(true);
         this._spriteLand1.setCascadeColorEnabled(true);
         this._spriteLand1.setAnchorPoint(cc.p(0.5, 0));
-        this._spriteLand1.setPosition(-320, 0);
+        ck.UIUtils.setPositionPercent(this._spriteLand1, 0.25, 0);
         this._spriteLand1.setScale(1.91, 1.91);
         let _spriteLand1LayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._spriteLand1);
         this._spriteLand1.setTexture("sprites/flappy-bird/base.png");
@@ -146,11 +169,11 @@ _ccs.FlappyBirdLayer = cc.Layer.extend({
         ///// # _spriteLand2
         this._spriteLand2 = new cc.Sprite();
         this._spriteLand2.setName("_spriteLand2");
-        this._nodeLand.addChild(this._spriteLand2);
+        this._layoutLand.addChild(this._spriteLand2);
         this._spriteLand2.setCascadeOpacityEnabled(true);
         this._spriteLand2.setCascadeColorEnabled(true);
         this._spriteLand2.setAnchorPoint(cc.p(0.5, 0));
-        this._spriteLand2.setPosition(320, 0);
+        ck.UIUtils.setPositionPercent(this._spriteLand2, 0.75, 0);
         this._spriteLand2.setScale(1.91, 1.91);
         let _spriteLand2LayoutComponent = ccui.LayoutComponent.bindLayoutComponent(this._spriteLand2);
         this._spriteLand2.setTexture("sprites/flappy-bird/base.png");
@@ -165,35 +188,35 @@ _ccs.FlappyBirdLayer = cc.Layer.extend({
     playCCSAnimIdle: function (delay = 0, callback = null, repeat = 1, speed = 1) {
         this.resetCCSAnimIdle();
     
-        let _nodeLandAction = cc.sequence(
+        let _layoutLandAction = cc.sequence(
             cc.spawn(
-                cc.moveTo(120 / (60 * speed), 0, 0),
-                cc.scaleTo(120 / (60 * speed), 1, 1),
-                cc.rotateBy(120 / (60 * speed), 0, 0)
+                cc.moveTo(120 / (30 * speed), -640, 0),
+                cc.scaleTo(120 / (30 * speed), 1, 1),
+                cc.rotateBy(120 / (30 * speed), 0, 0)
             ),
             cc.callFunc(function () {
                 if (repeat === 1) return;
-                this._nodeLand.setPosition(640, 0);
-                this._nodeLand.setScale(1, 1);
-                this._nodeLand.setRotation(0);
+                this._layoutLand.setPosition(0, 0);
+                this._layoutLand.setScale(1, 1);
+                this._layoutLand.setRotation(0);
             }.bind(this))
         );
         if (repeat <= 0) {
-            _nodeLandAction = _nodeLandAction.repeatForever();
-        } else _nodeLandAction = cc.sequence(
+            _layoutLandAction = _layoutLandAction.repeatForever();
+        } else _layoutLandAction = cc.sequence(
             cc.delayTime(delay),
-            _nodeLandAction.repeat(repeat),
+            _layoutLandAction.repeat(repeat),
             cc.callFunc(function () { if (cc.isFunction(callback)) callback(); }.bind(this))
         )
         
-        this._nodeLand.runAction(_nodeLandAction);
+        this._layoutLand.runAction(_layoutLandAction);
     },
 
     resetCCSAnimIdle: function () {
-        this._nodeLand.stopAllActions();
-        this._nodeLand.setPosition(640, 0);
-        this._nodeLand.setScale(1, 1);
-        this._nodeLand.setRotation(0);
+        this._layoutLand.stopAllActions();
+        this._layoutLand.setPosition(0, 0);
+        this._layoutLand.setScale(1, 1);
+        this._layoutLand.setRotation(0);
     }
 });
 

@@ -32,6 +32,9 @@
 
         "src/_ccs/loading/LoaderLayer.js",
         "src/_ccs/flappy-bird/FlappyBirdLayer.js",
+        "src/_ccs/flappy-bird/FlappyBirdCharacter.js",
+        "src/_ccs/flappy-bird/FlappyBirdChimney.js",
+        "src/_ccs/flappy-bird/FlappyBirdChimneyLayer.js",
 
         "src/libs/client-kit/core/abstract/CKDelegateContainer.js",
         "src/libs/client-kit/core/abstract/CKManagerContainer.js",
@@ -139,9 +142,14 @@
 
         "src/libs/client-kit/modules/flappy-bird/CKFlappyBirdManager.js",
         "src/libs/client-kit/modules/flappy-bird/CKFlappyBirdConstants.js",
+        "src/libs/client-kit/modules/flappy-bird/data/CKFlappyBirdConfig.js",
         "src/libs/client-kit/modules/flappy-bird/data/CKFlappyBirdData.js",
+        "src/libs/client-kit/modules/flappy-bird/data/CKFlappyBirdObjectCircleBody.js",
         "src/libs/client-kit/modules/flappy-bird/views/CKFlappyBirdLayer.js",
         "src/libs/client-kit/modules/flappy-bird/views/CKFlappyBirdScene.js",
+        "src/libs/client-kit/modules/flappy-bird/views/CKFlappyBirdCharacter.js",
+        "src/libs/client-kit/modules/flappy-bird/views/CKFlappyBirdChimney.js",
+        "src/libs/client-kit/modules/flappy-bird/views/CKFlappyBirdChimneyLayer.js",
 
         "src/GameManager.js"
     ]

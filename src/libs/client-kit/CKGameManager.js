@@ -6,6 +6,7 @@
  *
  * @property {ck.LocalizeManager} localize
  * @property {ck.LoadingManager} loading
+ * @property {ck.FlappyBirdManager} flappyBird
  * @property {ck.BaseFeatureManager[]} features
  *
  */
@@ -134,7 +135,6 @@ ck.GameManager = cc.Class.extend({
 
     initPools: function () {
         if (this._isPoolInit) return;
-        ck.NetworkPair.initPool(5);
         this._isPoolInit = true;
     },
 

@@ -1,0 +1,28 @@
+{
+    "birdFrames": [
+        {
+            "color": 1,
+            "frames": [
+                "flappy-bird/redbird-midflap.png",
+                "flappy-bird/redbird-upflap.png",
+                "flappy-bird/redbird-downflap.png"
+            ]
+        },
+        {
+            "color": 1,
+            "frames": [
+                "flappy-bird/bluebird-midflap.png",
+                "flappy-bird/bluebird-upflap.png",
+                "flappy-bird/bluebird-downflap.png"
+            ]
+        },
+        {
+            "color": 1,
+            "frames": [
+                "flappy-bird/yellowbird-midflap.png",
+                "flappy-bird/yellowbird-upflap.png",
+                "flappy-bird/yellowbird-downflap.png"
+            ]
+        }
+    ]
+}

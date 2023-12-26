@@ -2,12 +2,10 @@
     "scenes": [
         {
             "id": 1,
-            "name": "Login",
+            "name": "FlappyBird",
             "backgroundMusic": "",
             "assets": [
-                {"file": "sprite-sheets/Basics.png", "type": "SPRITE_SHEET"},
-                {"file": "sprite-sheets/Buttons.png", "type": "SPRITE_SHEET"},
-                {"file": "sprite-sheets/Nocis.png", "type": "SPRITE_SHEET"}
+                {"file": "sprite-sheets/FlappyBird.png", "type": "SPRITE_SHEET"}
             ]
         },
         {

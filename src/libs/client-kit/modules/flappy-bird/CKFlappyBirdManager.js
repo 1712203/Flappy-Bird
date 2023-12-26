@@ -8,6 +8,9 @@ ck.FlappyBirdManager = ck.BaseManager.extend({
     /** @type {ck.FlappyBirdData} */
     _data: null,
 
+    /** @type {ck.FlappyBirdConfig} */
+    _config: null,
+
     /**
      * @constructor
      */
@@ -23,16 +26,16 @@ ck.FlappyBirdManager = ck.BaseManager.extend({
      * @override
      */
     _getConfigFile: function () {
-        return ck.LoginManager.CONFIG_FILE;
+        return ck.FlappyBirdManager.CONFIG_FILE;
     },
 
     /**
      * Create config object
-     * @return {LoginConfig}
+     * @return {FlappyBirdConfig}
      * @override
      */
     _createConfig: function () {
-        return null;
+        return FlappyBirdConfig.create();
     },
 
     /**
@@ -76,14 +79,14 @@ ck.FlappyBirdManager = ck.BaseManager.extend({
     },
 
     /**
-     * @return {LoginData}
+     * @return {FlappyBirdData}
      */
     getData: function () {
         return this._data;
     },
 
     /**
-     * @return {LoginConfig}
+     * @return {FlappyBirdConfig}
      */
     getConfig: function () {
         return this._config;
@@ -130,3 +133,5 @@ let FlappyBirdManager = ck.FlappyBirdManager;
 FlappyBirdManager.create = function () {
     return new FlappyBirdManager();
 };
+
+ck.FlappyBirdManager.CONFIG_FILE = "configs/FlappyBirdConfig.json";

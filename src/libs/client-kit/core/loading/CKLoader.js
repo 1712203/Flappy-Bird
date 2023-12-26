@@ -42,7 +42,7 @@ ck.loader.load = function (fileName, type, format) {
 ck.loader.loadAsset = function (asset) {
     if (!asset) return;
     ck.loader.load(asset.getFileName(), asset.getType(), asset.getFormat());
-    // cc.log("[ck.loader.loadAsset] - " + asset.getFileName());
+    //cc.log("[ck.loader.loadAsset] - " + asset.getFileName());
 };
 
 /**
@@ -78,6 +78,7 @@ ck.loader.loadSpriteSheet = function (fileName, format) {
     const plist = fileNameWithoutExtension.concat(".plist");
     ck.loader.loadSprite(png, format);
     cc.spriteFrameCache.addSpriteFrames(plist);
+    //cc.log("[loadSpriteSheet] - ", png, " - ", format);
 };
 
 /**
