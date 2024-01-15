@@ -14,11 +14,6 @@ let _ccs = _ccs || {};
  *
  */
 _ccs.FlappyBirdChimney = ccui.Widget.extend({
-
-    /** @type {ccui.ImageView} */
-    _chimney: null,
-
-
     /**
      * _ccs.FlappyBirdChimney constructor
      * @constructor

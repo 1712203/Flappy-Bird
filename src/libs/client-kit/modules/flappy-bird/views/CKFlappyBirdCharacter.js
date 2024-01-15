@@ -36,6 +36,14 @@ ck.FlappyBirdCharacter = _ccs.FlappyBirdCharacter.extend({
     getRadius: function () {
         return this._spriteBird.width * this._spriteBird.getScaleX() * 0.5;
     },
+
+    /** @return {Object} */
+    getCircleBodyToCheckCollision: function () {
+        return {
+            "radius": this.getRadius(),
+            "pos": this.getWorldPosition()
+        };
+    },
 });
 
 /**

@@ -12,9 +12,9 @@
           </Folder>
           <Folder Name="flappy-bird">
             <Project Name="FlappyBirdCharacter.csd" Type="Node" />
-            <Project Name="FlappyBirdLayer.csd" Type="Layer" />
             <Project Name="FlappyBirdChimney.csd" Type="Node" />
             <Project Name="FlappyBirdChimneyLayer.csd" Type="Layer" />
+            <Project Name="FlappyBirdLayer.csd" Type="Layer" />
           </Folder>
           <Folder Name="loading">
             <Project Name="LoaderLayer.csd" Type="Layer" />

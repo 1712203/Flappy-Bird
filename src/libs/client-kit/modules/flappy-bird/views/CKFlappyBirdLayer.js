@@ -153,7 +153,33 @@ ck.FlappyBirdLayer = _ccs.FlappyBirdLayer.extend({
         if (isCollisionWithGround) {
             this._bird.y = this._layoutLand.height * this._layoutLand.getScaleY() + this._bird.getRadius();
         }
+        if (isCollisionWithChimneys) {
+            this.birdFallFreely();
+        }
     },
+
+    birdFallFreely: function () {
+        this.schedule(this.updateBirdFallFreely);
+    },
+
+    updateBirdFallFreely: function (d_t) {
+        if (!this._startGame)
+            return;
+        
+        let d_y = this._v * d_t + 0.5 * FlappyBirdLayer.G * d_t * d_t;
+        let d_rotation = d_t * FlappyBirdLayer.V_ROTATION;
+        let new_rotation = this._bird.getRotation() + d_rotation;
+
+        this._bird.y -= d_y;
+        this._bird.setRotation(new_rotation >= FlappyBirdLayer.MIN_ROTATION ? FlappyBirdLayer.MIN_ROTATION : new_rotation);
+
+        this._v = this._v + FlappyBirdLayer.G * d_t;
+
+        if (this.checkCollisionWithGround()) {
+            this.unschedule(this.updateBirdFallFreely);
+        }
+    },
+
 
     /** @return {boolean} */
     checkCollisionWithGround: function () {
@@ -165,7 +191,9 @@ ck.FlappyBirdLayer = _ccs.FlappyBirdLayer.extend({
 
     /** @return {boolean} */
     checkCollisionWithChimneys: function () {
-        return false;
+        var chimneyBodies = this._chimneyMap.getChimneysBody();
+        var birdBody = this._bird.getCircleBodyToCheckCollision();
+        return GameUtils.checkCollisionBirdAndChimney(chimneyBodies, birdBody);
     },
 });
 

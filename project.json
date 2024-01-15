@@ -127,6 +127,8 @@
         "src/libs/client-kit/utils/CKShaderUtils.js",
         "src/libs/client-kit/utils/CKDateFormatUtils.js",
 
+        "src/utils/GameUtils.js",
+
         "src/libs/client-kit/CKGameManager.js",
 
         "src/libs/client-kit/modules/loading/CKLoadingConstants.js",

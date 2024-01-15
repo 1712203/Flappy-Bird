@@ -21,6 +21,12 @@ ck.FlappyBirdChimneyLayer = _ccs.FlappyBirdChimneyLayer.extend({
         this._nodeChimney.setPosition(cc.p(x, y));
     },
 
+    /** @return {Array} */
+    getChimneysBody: function () {
+        var chimneyUpBody = this._chimneyUp.getCircleBodyToCheckCollision();
+        var chimneyDownBody = this._chimneyDown.getCircleBodyToCheckCollision();
+        return chimneyUpBody.concat(chimneyDownBody);
+    },
 });
 
 /**
@@ -72,15 +78,14 @@ ck.FlappyBirdChimneyTileMap = ccui.Widget.extend({
         this._chimneys.push(chimney);
     },
 
-    /** @return {cc.Rect[]} */
-    getChimneysBoundingBox: function () {
-        let chimneys_bounding_box = [];
+    /** @return {Array} */
+    getChimneysBody: function () {
+        var bodies = [];
+        this._chimneys.forEach(function (chimney) {
+            bodies = bodies.concat(chimney.getChimneysBody());
+        });
 
-        // this._chimneys.forEach(function (chimney) {
-        //     if (chimney) chimneys_bounding_box = chimneys_bounding_box.concat(chimney.getChimneysBoundingBox());
-        // }.bind(this));
-
-        return chimneys_bounding_box;
+        return bodies;
     },
 
     /** @param {Number} dt */

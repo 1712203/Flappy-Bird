@@ -29,7 +29,7 @@ ck.FlappyBirdChimney = _ccs.FlappyBirdChimney.extend({
                 circleBody.setParent(this._chimney);
                 circleBody.updateFactor(cc.pFromSize(this._chimney), this._chimney.getScaleX() * 0.5);
             }
-        }.bind(this))
+        }.bind(this));
         this.drawPhysicCircleBody();
     },
 
@@ -46,6 +46,19 @@ ck.FlappyBirdChimney = _ccs.FlappyBirdChimney.extend({
         drawCircle.setPosition(cc.p(this._chimney.width * this._chimney.getScaleX() * 0.5 ,
             this._chimney.height * this._chimney.getScaleY() * 0.5));
         this._chimney.addChild(drawCircle);
+    },
+
+    /** @return {Array} */
+    getCircleBodyToCheckCollision: function () {
+        var circles = [];
+        this._circleBodies.forEach(function (circle) {
+            circles.push({
+                "radius": circle.radius,
+                "pos": circle.getWorldPosition(this._chimney)
+            })
+        }.bind(this));
+        cc.log("xxx: ", this._chimney.getWorldPosition().x);
+        return circles;
     },
 });
 

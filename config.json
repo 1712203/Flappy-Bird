@@ -2,7 +2,7 @@
     "init_cfg": {
         "isLandscape": false, 
         "isWindowTop": false, 
-        "name": "Pisti", 
+        "name": "Flappy Bird",
         "width": 640, 
         "height": 1136,
         "entry": "main.js", 

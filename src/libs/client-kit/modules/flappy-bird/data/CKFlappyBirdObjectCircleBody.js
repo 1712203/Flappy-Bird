@@ -6,25 +6,22 @@
  * @property {ccui.Widget} parent
  */
 let ObjectCircleBody = cc.Class.extend({
-    /** @type {cc.Point} */
-    pos: null,
-
-    /** @type {cc.Point} */
-    factorPos: cc.p(0, 0),
-
-    /** @type {Number} */
-    radius: 0,
-
-    /** @type {ccui.Widget} */
-    parent: null,
-
     /**
      * @param {cc.Point} pos
      * @param {Number} radius
      * */
     ctor: function (pos, radius) {
+        /** @type {cc.Point} */
         this.pos = pos;
+
+        /** @type {Number} */
         this.radius = radius;
+
+        /** @type {ccui.Widget} */
+        this.parent = null;
+
+        /** @type {cc.Point} */
+        this.factorPos = cc.p(0, 0);
     },
 
     /**
@@ -42,8 +39,8 @@ let ObjectCircleBody = cc.Class.extend({
     },
 
     /** @return {cc.Point} */
-    getWorldPosition: function () {
-        return this.parent ? this.parent.convertToWorldSpace(this.pos) : this.pos;
+    getWorldPosition: function (parent) {
+        return parent ? parent.convertToWorldSpace(this.pos) : this.factorPos;
     }
 })
 
@@ -52,13 +49,11 @@ let ObjectCircleBody = cc.Class.extend({
  * @extends cc.Class
  */
 var ObjectCircleConfigInfo = cc.Class.extend({
-    /** @param {String} */
-    name: "",
-
-    /** @type {ObjectCircleBody[]} */
-    circleBody: null,
-
     ctor: function () {
+        /** @param {String} */
+        this.name = "";
+
+        /** @type {ObjectCircleBody[]} */
         this.circleBody = [];
     },
 
@@ -110,7 +105,7 @@ let FlappyBirdObjectPhysicCircleBodyConfig = (function () {
          * */
         getBodyConfigByObjectName: function (name) {
             var config = this.listConfig[name];
-            return config ?  [...config.circleBody] : null;
+            return config ?  Array.from(config.circleBody) : null;
         }
     }
 })();

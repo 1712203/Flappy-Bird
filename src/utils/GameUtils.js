@@ -83,3 +83,25 @@ GameUtils.earnCoin = function (amount, position, parent, callback, delay) {
     return GameUtils.earnItem(ItemID.COIN, amount, position, parent, callback, delay);
 };
 
+
+/**
+ * @param {Array} chimneyBodies
+ * @param {Object} birdBody
+ * @return {boolean}
+ */
+GameUtils.checkCollisionBirdAndChimney = function (chimneyBodies, birdBody) {
+   // cc.log("chimneyyyy: ", JSON.stringify(chimneyBodies), "\n\n");
+    var isCollision = false;
+    var dr, dx, dy;
+    for (var i = 0; i < chimneyBodies.length; i++) {
+        dr = birdBody.radius + chimneyBodies[i].radius;
+        dx = birdBody.pos.x - chimneyBodies[i].pos.x;
+        dy = birdBody.pos.y - chimneyBodies[i].pos.y;
+        if ((dr * dr) > (dx * dx + dy * dy)) {
+            isCollision = true;
+            break;
+        }
+    }
+
+    return isCollision;
+};
